@@ -19,11 +19,7 @@ A theme based on the Devilman mythos.
 
 ### [Mini Themes](MiniThemes)
 
-Themes for the desktop client, meant to compliment other themes.
-
-#### [Restore Titlebar](MiniThemes/RestoreTitlebar)
-
-Restores the old Windows titlebar.
+Themes for the desktop client, meant to compliment other themes. Details in the link.
 
 ## Installing
 
