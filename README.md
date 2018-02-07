@@ -2,8 +2,8 @@
 
 **A collection of my custom Discord themes.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
-[![Twitter Link](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?style=flat-square&logo=twitter)](https://twitter.com/chronobserver)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Twitter Link](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?logo=twitter)](https://twitter.com/chronobserver)
 
 ## Themes
 
