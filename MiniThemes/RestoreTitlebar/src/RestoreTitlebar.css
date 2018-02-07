@@ -1,0 +1,80 @@
+/** ---- Remove Titlebar ---- **/
+.winButton-U7zAqI {
+  position: relative;
+  top: 25px;
+  right: 7px;
+  height: 30px;
+  width: 35.5px;
+  border-radius: 25%;
+}
+.titleBar-3_fDwJ {
+  position: relative;
+  margin-top: -19px;
+}
+.title-qAcLxz {
+  position: relative;
+}
+.wordmark-2L03Wr {
+  display: none;
+}
+.icon-mr9wAc {
+  position: relative;
+  margin-bottom: 5px;
+  right: 110px;
+  margin-left: -3px;
+  margin-right: 3.5px;
+}
+.iconBadge-1FYlQB {
+  position: relative;
+  right: 123px;
+  margin-right: -7px;
+}
+.search-2--6aU {
+  position: relative;
+  right: 107px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.divider-1GKkV3 {
+  position: relative;
+  right: 55px;
+  margin-bottom: 5px;
+}
+.topic-1KFf6J {
+  padding-right: 110px;
+  margin-bottom: 5px;
+}
+
+/** ---- Fix Notices ---- **/
+.notice-3I4-y_,
+#pluginNotice,
+.DevilBro-notice {
+  position: absolute;
+  left: 70px;
+  right: 119px;
+  height: 48px;
+  line-height: 48px;
+}
+.DevilBro-notice {
+  top: 20px;
+}
+.dismiss-1QjyJW,
+.button-2TvR03 {
+  margin-top: 6px;
+}
+
+/** ---- Fix Dragging ---- **/
+.titleWrapper-3Vi_wz > div,
+.headerBar-cxbhPD > div:not(:last-child),
+.topic-1KFf6J::before,
+.aka-2Ba14Z,
+.guilds-wrapper {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+.title-qAcLxz > div:last-child,
+.private-38vo6h,
+.topic-1KFf6J,
+.guild {
+  -webkit-app-region: no-drag;
+}
