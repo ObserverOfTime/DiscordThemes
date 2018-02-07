@@ -27,17 +27,17 @@
 
 ## Applying
 
-_(checked = autoupdating)_
+_(checkmark = autoupdating)_
 
 ### Desktop
-- [ ] Option 1:
+- Option 1:
   - [Download](https://betterdiscord.net/ghdl?id=1345) the theme
   - Place it in BetterDiscord's theme folder
   - Reload and enable it in your settings
-- [x] Option 2:
+- ✓ Option 2:
   - Write the following line in your custom CSS: `@import url("https://observeroftime.github.io/DiscordThemes/NewNihilism/src/NewNihilism.min.css");`
   - Click `Save` and `Update`
 
 ### Web
 
-- [ ] Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
+- Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
