@@ -187,12 +187,6 @@
   background: rgba(0, 0, 0, 0.1);
   color: silver;
 }
-.option-popout .btn-item:last-child:not(:first-child) {
-  color: rgba(255, 52, 52, 0.8);
-}
-.option-popout .btn-item:last-child:not(:first-child):hover {
-  color: rgba(255, 52, 52, 1);
-}
 
 /** ---- Member Area ---- **/
 .channel-members-wrap {
@@ -805,7 +799,6 @@
   width: 31px !important;
 }
 
-
 /** ---- Settings ---- **/
 .user-settings-games .not-detected {
   background-color: #2f3136 !important;
@@ -814,7 +807,17 @@
   background-color: hsla(210, 40%, 13%, 0.7) !important;
 }
 .user-settings-locale .icon-3j0iot {
-  filter: hue-rotate(90deg) saturate(20);
+  visibility: hidden;
+}
+.user-settings-locale .cardPrimary-ZVL9Jr::before {
+  content: "";
+  padding: 20px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><g fill="none" fill-rule="evenodd"><path d="M0 0h36v36H0z"/><path fill="#4454b7" d="M19.305 22.605l-3.81-3.765.045-.045c2.61-2.91 4.47-6.255 5.565-9.795H25.5V6H15V3h-3v3H1.5v3h16.755c-1.005 2.88-2.595 5.625-4.755 8.025A23.4678 23.4678 0 0 1 10.035 12h-3c1.095 2.445 2.595 4.755 4.47 6.84L3.87 26.37 6 28.5l7.5-7.5 4.665 4.665 1.14-3.06zM27.75 15h-3L18 33h3l1.68-4.5h7.125L31.5 33h3l-6.75-18zm-3.93 10.5l2.43-6.495 2.43 6.495h-4.86z"/></g></svg>');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .card-3DrRmC a {
   color: #00b0f4 !important;
@@ -859,13 +862,19 @@
 .item-2zi_5J .checkbox-1QwaS4[value="on"] polyline {
   stroke: #CCC;
 }
-.barFill-18ABna{
+.barFill-18ABna {
   background: #222;
 }
-.itemDefault-3NDwnY[style*="rgb(114, 137, 218)"] {
+.barFill-18ABna[style*="rgb(105, 196, 154)"] {
+  background: darkgreen !important;
+}
+.bar-2cFRGz[style*="rgb(251, 184, 72)"] {
+  background: #4f545c !important
+}
+.item-3879bf[style*="rgb(114, 137, 218)"]:not(.selected-eNoxEK) {
   color: gold !important;
 }
-.itemDefault-3NDwnY[style*="rgb(114, 137, 218)"]:hover {
+.item-3879bf[style*="rgb(114, 137, 218)"]:not(.selected-eNoxEK):hover {
   background: hsla(51, 100%, 50%, 0.1) !important;
 }
 
@@ -919,6 +928,9 @@
   background-color: hsla(210, 9%, 31%, 0.6) !important;
   border-color: transparent !important;
 }
+.emojiPicker-3g68GS .no-search-results .sad-discord {
+  background-image: url('data:image/svg+xml;utf8,<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg"><style id="dark-mode-custom-style"/><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="empty-emoji-light"><g id="Page-1" transform="translate(4 5)"><path d="M80 40c0 22.091-17.909 40-40 40S0 62.091 0 40 17.909 0 40 0s40 17.909 40 40" id="Fill-1" fill="#333"/><path d="M80 40c0 22.091-17.909 40-40 40S0 62.091 0 40 17.909 0 40 0s40 17.909 40 40z" id="Stroke-3" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 41.6416c0 2.761-2.239 5-5 5s-5-2.239-5-5 2.239-5 5-5 5 2.239 5 5" id="Fill-5" fill="#99AAB5"/><path d="M68 41.6416c0 2.761-2.239 5-5 5s-5-2.239-5-5 2.239-5 5-5 5 2.239 5 5" id="Fill-7" fill="#99AAB5"/><path d="M50 59.4827c-5.846-4.677-14.154-4.677-20 0" id="Stroke-9" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M81.2071 66.9749c0 5.708-4.627 10.335-10.335 10.335-5.707 0-10.334-4.627-10.334-10.335 0-5.708 10.334-18.335 10.334-18.335s10.335 12.627 10.335 18.335" id="Fill-11" fill="#333"/><path d="M81.2071 66.9749c0 5.708-4.627 10.335-10.335 10.335-5.707 0-10.334-4.627-10.334-10.335 0-5.708 10.334-18.335 10.334-18.335s10.335 12.627 10.335 18.335z" id="Stroke-13" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></svg>');
+}
 .premiumPromo-HqV_qx {
   background: #333;
 }
@@ -952,7 +964,7 @@
 /** ---- Loading ---- **/
 .channel-members-loading,
 .channel-members-loading .spinner-inner {
-  background-image: url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/images/loading.svg") !important;
+  background-image: url("https://observeroftime.github.io/DiscordThemes/NewNihilism/img/loading.svg") !important;
   background-color: hsla(218, 7%, 23%, 1) !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -966,7 +978,7 @@
 .spinner-wandering-cubes,
 .spinner-2szMS3,
 .spinningCircleInner-2putKt {
-  background-image: url("https://cdn.rawgit.com/ObserverOfTime/Discord-Nihilism-Theme/master/images/loading.svg") !important;
+  background-image: url("https://observeroftime.github.io/DiscordThemes/NewNihilism/img/loading.svg") !important;
   background-color: transparent !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -1063,6 +1075,9 @@
 .DevilBro-notice,
 .notice-3I4-y_ {
   border-radius: 0 !important;
+}
+.no-search-results .sad-discord {
+  background-image: url('data:image/svg+xml;utf8,<svg width="97" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style id="dark-mode-custom-style"/><defs><path id="path-1" d="M0 .3437h97V70H0"/></defs><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="Page-1"><g id="Group-3"><path d="M63.7925 49.8218c-4.6413 0-8.404-4.0841-8.404-9.1215 0-2.3507.8195-4.4933 2.165-6.1107l14.3903 8.3344c-.915 3.9626-4.2167 6.8978-8.1513 6.8978m-30.5849 0c-3.9346 0-7.2363-2.9352-8.1513-6.8978l14.3903-8.3344c1.3454 1.6174 2.165 3.76 2.165 6.1107 0 5.0374-3.7628 9.1215-8.404 9.1215m51.6637-40.633C75.2377 1.1177 62.0015.3436 62.0015.3436l-1.102 1.3823c12.399 2.9144 21.4919 10.5037 21.4919 10.5037C66.2466 2.9896 48.5 4.2133 48.5 4.2133s-17.7465-1.2237-33.8913 8.0163c0 0 9.0925-7.5893 21.492-10.5037L34.9985.3436s-13.2363.7741-22.8699 8.8452c0 0-12.4127 21.9-12.1239 48.6489 0 0 6.9866 11.8426 25.3499 12.1622l5.7864-7.1866s-4.8862-.3223-10.195.2763c0 0 8.0606-3.317 27.554-3.317 19.4932 0 27.5538 3.317 27.5538 3.317-5.3088-.5986-10.195-.2763-10.195-.2763l5.7865 7.1866c18.3633-.3196 25.3495-12.1622 25.3495-12.1622.2891-26.7489-12.1236-48.6489-12.1236-48.6489" id="Fill-1" fill="#99AAB5"/></g><path d="M60 67c-2.7615 0-5-2.2612-5-5.0507C55 59.1597 60 51 60 51s5 8.1597 5 10.9493C65 64.7388 62.7615 67 60 67z" id="Fill-4" fill="#99AAB5"/><path d="M65 61.9493C65 64.7388 62.7615 67 60 67s-5-2.2612-5-5.0507C55 59.1597 60 51 60 51s5 8.1597 5 10.9493z" id="Stroke-6" stroke="#222" stroke-width="1"/></g></g></svg>'); 
 }
 
 
