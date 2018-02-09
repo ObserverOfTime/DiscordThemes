@@ -1,4 +1,4 @@
-/** ---- New Nihilism v1.0.1 by Observer of Time ---- **/
+/** ---- New Nihilism v1.0.2 by Observer of Time ---- **/
 
 /** ---- Features ----
  *  Compact lists
@@ -1011,32 +1011,18 @@
   }
 
   /** ---- Scrollbars ---- **/
-  .scroller-wrap .scrollbar {
-    width: 17px;
+  .messages-wrapper .scroller::-webkit-scrollbar-track-piece {
+    background: transparent !important;
   }
-  .scrollbar::after {
-    visibility: hidden;
+  .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    min-height: 25px;
   }
-  div[class*="scroller"] {
-    overflow-x: hidden !important;
-  }
-  .messages-wrapper .scroller-wrap .track {
-    background: #36393e !important;
-  }
-  .messages-wrapper .scroller-wrap .thumb {
-    min-height: 30px;
-    width: 15px
-  }
-  .emojiPicker-3g68GS .scrollbar-2so3Ly,
-  .emojiPicker-3g68GS .track-2Kex6E,
-  .emojiPicker-3g68GS .thumb-3VsfAI,
-  .emojiPicker-3g68GS .pad-3D5tOh {
-      background: #333 !important;
-      margin-left: 5px;
-  }
-  .containerDefault-1bbItS,
-  .containerDefault-7RImuF {
-    width: 110%;
+  .scroller-fzNley::-webkit-scrollbar,
+  .scrollbarGhost-K_3Xa9::-webkit-scrollbar,
+  .keyboard-shortcuts-modal .scroller::-webkit-scrollbar,
+  .wrapper-VSYYTS .Select-menu::-webkit-scrollbar,
+  .friends-table .scroller::-webkit-scrollbar {
+    display: none;
   }
 
   /** ---- Misc ---- **/
@@ -1098,6 +1084,41 @@
   /** ---- Hide Apps Button ---- **/
   .guilds-wrapper .btn-download-apps {
     display: none;
+  }
+
+  /** ---- More scrollbar fixes ---- **/
+  .scroller-NXV0-d {
+    padding-right: 24px;
+  }
+  .scroller-wrap .scrollbar {
+    width: 17px;
+  }
+  .scrollbar::after {
+    visibility: hidden;
+  }
+  div[class*="scroller"] {
+    overflow-x: hidden !important;
+  }
+  .messages-wrapper .scroller-wrap .track {
+    background: #36393e !important;
+  }
+  .messages-wrapper .scroller-wrap .thumb {
+    min-height: 30px;
+    width: 15px
+  }
+  .emojiPicker-3g68GS .scrollbar-2so3Ly,
+  .emojiPicker-3g68GS .track-2Kex6E,
+  .emojiPicker-3g68GS .thumb-3VsfAI,
+  .emojiPicker-3g68GS .pad-3D5tOh {
+      background: #333 !important;
+      margin-left: 5px;
+  }
+  .containerDefault-1bbItS,
+  .containerDefault-7RImuF {
+    width: 110%;
+  }
+  .scrollerWrapPolyfill-2MQSeP .scroller-fzNley {
+    padding: 0;
   }
 
 }

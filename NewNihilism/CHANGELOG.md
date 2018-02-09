@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.2
+
+- Fix scrollbars on web
+
 ## v1.0.1
 
 - Fix Nitro settings tab not being gold on web
