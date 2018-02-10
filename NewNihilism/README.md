@@ -40,9 +40,9 @@ _(checkmark = autoupdating)_
 
 ### Web
 
-- Stylus:
+- ✓ Stylus:
   - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
+  - _Optional: In Stylus' options, reduce the autoupdate interval from 24 hours to 1_
 - ✓ xStyle:
   - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
-  - Open the xStyle settings tab
-  - Find `New Nihilism` and click `AUTOMATIC UPDATE`
+  - In xStyle's options, find `New Nihilism` and click on `AUTOMATIC UPDATE`
