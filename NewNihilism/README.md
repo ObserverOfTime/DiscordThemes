@@ -40,4 +40,9 @@ _(checkmark = autoupdating)_
 
 ### Web
 
-- Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
+- Stylus:
+  - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
+- ✓ xStyle:
+  - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
+  - Open the xStyle settings tab
+  - Find `New Nihilism` and click `AUTOMATIC UPDATE`
