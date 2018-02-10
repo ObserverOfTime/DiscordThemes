@@ -1,4 +1,4 @@
-//META{"name":"NewNihilism", "description":"A dark and compact theme, designed for use with Discord's dark theme.", "author":"Observer of Time", "version":"1.0.1"}*//{}
+//META{"name":"NewNihilism", "description":"A dark and compact theme, designed for use with Discord's dark theme.", "author":"Observer of Time", "version":"1.0.3"}*//{}
 
 /** ---- Server Area ---- **/
 .guilds-wrapper {
@@ -43,6 +43,7 @@
 }
 .guilds-add {
   opacity: 0.5;
+  line-height: 25px !important;
   font-size: 35px !important;
 }
 .guilds-wrapper .guilds-error {
@@ -86,7 +87,7 @@
 .separator-1hpa3S {
   display: none;
 }
-.menu-3BZuDT .item-rK1j5B:hover  {
+.menu-3BZuDT .item-rK1j5B:hover {
   background-color: #444 !important;
 }
 .item-rK1j5B:hover.invite-YM1l0n {
@@ -133,8 +134,14 @@
 .chat .new-messages-bar:hover {
   background: #333;
 }
-.avatar-large {
+.message-group .avatar-large {
   margin-left: 1.5px;
+}
+.message-group.compact .comment {
+  margin-left: -30px;
+}
+.message-group.compact .system-message {
+  margin-left: 3rem;
 }
 .message-group-blocked {
   display: none;
@@ -189,6 +196,21 @@
   background: rgba(0, 0, 0, 0.1);
   color: silver;
 }
+.attachButton-Di6YUh {
+  margin-right: 10px;
+  margin-left: 12px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAABwUlEQVR4Ae3QA4yeXRTE8VnbZvCZtW0zrm3bZlTbDmrbep/7v2sGVVgrVt1orXB/Mc7M5KiSVUP4EE084dbDlu3whqjNZjJ4wj1mE+dSKaUow40uwCmG0IsFZHPcJBqVQqqy3Gw3slhtQpCjM6IBGSzDE5XgmS7KdiWLlSbgZ5cVE0knjpIGp39tzWC5ibV/kuy4G0mIpjzhf0o1eDn/soMsHjLI8TBCtOex+Z1SDF7Of5ziPv2YyRJ+t7JerOW8CaEUg//jJDf5H9lo+vN/ihuDybO97ymt2MHZX07/4SQ37D8umTiOcJFE2598pqR4pahQL7RRtjuZLKcmJ7nKP4hYDvCQxgwklyn4oEJZWbcvp18HR7KNK+YvZBN+nPYnm0mOt1GhHKWKDmR9OQ1wPGwb+/VBcRzGoSH9yGOSy8ulIiDiuM1hE4QkZGRiOICLRvQlh8nWx6pIRrY57xjHz6h4DvLANKYvWUyyPqgYiLZ8ZHyqu/1+eggX9elNNhPxQsWysr+Sx23iU2QSOMxDGryT6cUwx8dRCaxS3RlFHrtZxm1uUf+tEMINlQJyvOnGTo6xkN8QKiOErw00HqhKVPsM3BA/X1L87hgAAAAASUVORK5CYII=') no-repeat center;
+  opacity: 0.6;
+  transition: opacity 0.1s;
+}
+.attachButton-Di6YUh:hover {
+  opacity: 1;
+  transition: opacity 0.1s;
+}
+.attachButtonPlus-2l1NEU,
+.attachButtonDivider-3tknGJ {
+  display: none;
+}
 
 /** ---- Member Area ---- **/
 .channel-members-wrap {
@@ -218,7 +240,7 @@
   display: none;
 }
 .scrollerWrap-2uBjct {
-  height: 110%;
+  height: 105%;
 }
 
 /** --- Friend Area ---- **/
@@ -412,7 +434,7 @@
 .connectedAccounts-3WWAND {
   margin-bottom: 5px;
 }
-.connectedAccount-3mKaTA   {
+.connectedAccount-3mKaTA {
   border: 2px solid #111 !important;
 }
 .connectedAccountOpenIcon-2J8hDS:hover {
@@ -461,10 +483,7 @@
   padding-top: 0;
   left: 234px;
   top: 215px;
-  box-shadow: -2px  0px #222,
-               0px  2px #222,
-               2px  0px #222,
-               0px -2px #222;
+  box-shadow: -2px 0px #222, 0px 2px #222, 2px 0px #222, 0px -2px #222;
 }
 
 /** ---- Region Modal ---- **/
@@ -709,10 +728,6 @@
 #friends .friends-empty .btn,
 .pill-1nbD-Z,
 .questionMark-1R8WLs,
-.bd-pfbtn,
-.bda-settings-button,
-#bd-settingspane-container .plugin-settings button,
-.ui-standard-sidebar-view .bda-slist button,
 .instantInviteModalAdvanced-38f2M0 .btn,
 .premiumPromo-HqV_qx .btn,
 .create-guild-container.deprecated .action .btn,
@@ -720,8 +735,7 @@
 .clipboardInputInner-oj8y-S button,
 .uploadModal-2KN6Mm .button,
 .private-channel-recipients-invite button,
-.primaryButton-1ZHZe8,
-.bd-modal button {
+.primaryButton-1ZHZe8 {
   background: slategray !important;
   color: white !important;
 }
@@ -734,10 +748,6 @@
 #friends .friends-empty .btn:hover,
 .pill-1nbD-Z:hover,
 .questionMark-1R8WLs:hover,
-.bd-pfbtn:hover,
-.bda-settings-button:hover,
-#bd-settingspane-container .plugin-settings button:hover,
-.ui-standard-sidebar-view .bda-slist button:hover,
 .instantInviteModalAdvanced-38f2M0 .btn:hover,
 .premiumPromo-HqV_qx .btn:hover,
 .create-guild-container.deprecated .action:hover .btn,
@@ -746,8 +756,7 @@
 .clipboardInputInner-oj8y-S button:hover,
 .uploadModal-2KN6Mm .button:hover,
 .private-channel-recipients-invite button:not(:disabled):hover,
-.primaryButton-1ZHZe8:hover,
-.bd-modal button:hover {
+.primaryButton-1ZHZe8:hover {
   background: darkslategray !important;
   color: white !important;
 }
@@ -774,12 +783,8 @@
   border-radius: 20%;
 }
 .sizeDefault-rZbSBU,
-.ui-standard-sidebar-view .btn-close,
-#bd-settingspane-container .ui-switch {
+.ui-standard-sidebar-view .btn-close {
   border-radius: 10px !important;
-}
-#bd-settingspane-container .plugin-settings button {
-  border-radius: 5px;
 }
 .clipboardInputInner-oj8y-S button {
   border: none;
@@ -827,7 +832,6 @@
 }
 #friends .tab-bar .selected,
 .itemSelected-3XxAMf,
-#bd-settings-sidebar .selected,
 .container-Q1c3uJ.hover-1civje button {
   background: rgba(40, 40, 40, 0.8) !important;
   color: white !important;
@@ -838,7 +842,6 @@
 }
 .valueChecked-3Bzkbm,
 .checked-2TahvT,
-#bd-settingspane-container .ui-switch.checked,
 .checkbox-inner input:checked + span,
 .allowSelected-1FAg8y {
   background: darkgreen !important;
@@ -931,7 +934,7 @@
   border-color: transparent !important;
 }
 .emojiPicker-3g68GS .no-search-results .sad-discord {
-  background-image: url('data:image/svg+xml;utf8,<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg"><style id="dark-mode-custom-style"/><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="empty-emoji-light"><g id="Page-1" transform="translate(4 5)"><path d="M80 40c0 22.091-17.909 40-40 40S0 62.091 0 40 17.909 0 40 0s40 17.909 40 40" id="Fill-1" fill="#333"/><path d="M80 40c0 22.091-17.909 40-40 40S0 62.091 0 40 17.909 0 40 0s40 17.909 40 40z" id="Stroke-3" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 41.6416c0 2.761-2.239 5-5 5s-5-2.239-5-5 2.239-5 5-5 5 2.239 5 5" id="Fill-5" fill="#99AAB5"/><path d="M68 41.6416c0 2.761-2.239 5-5 5s-5-2.239-5-5 2.239-5 5-5 5 2.239 5 5" id="Fill-7" fill="#99AAB5"/><path d="M50 59.4827c-5.846-4.677-14.154-4.677-20 0" id="Stroke-9" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M81.2071 66.9749c0 5.708-4.627 10.335-10.335 10.335-5.707 0-10.334-4.627-10.334-10.335 0-5.708 10.334-18.335 10.334-18.335s10.335 12.627 10.335 18.335" id="Fill-11" fill="#333"/><path d="M81.2071 66.9749c0 5.708-4.627 10.335-10.335 10.335-5.707 0-10.334-4.627-10.334-10.335 0-5.708 10.334-18.335 10.334-18.335s10.335 12.627 10.335 18.335z" id="Stroke-13" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg"><style id="dark-mode-custom-style"/><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="empty-emoji-light"><g id="Page-1" transform="translate(4 5)"><path d="M80 40a40 40 0 1 1-80 0 40 40 0 0 1 80 0" id="Fill-1" fill="#333"/><path d="M80 40a40 40 0 1 1-80 0 40 40 0 0 1 80 0z" id="Stroke-3" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 41.64a5 5 0 1 1-10 0 5 5 0 0 1 10 0" id="Fill-5" fill="#99AAB5"/><path d="M68 41.64a5 5 0 1 1-10 0 5 5 0 0 1 10 0" id="Fill-7" fill="#99AAB5"/><path d="M50 59.48a16 16 0 0 0-20 0" id="Stroke-9" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M81.2 66.97a10.33 10.33 0 1 1-20.66 0c0-5.7 10.33-18.33 10.33-18.33s10.34 12.63 10.34 18.33" id="Fill-11" fill="#333"/><path d="M81.2 66.97a10.33 10.33 0 1 1-20.66 0c0-5.7 10.33-18.33 10.33-18.33s10.34 12.63 10.34 18.33z" id="Stroke-13" stroke="#99AAB5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g></g></g></svg>');
 }
 .premiumPromo-HqV_qx {
   background: #333;
@@ -1073,13 +1076,11 @@
 .sidebar .side-2nYO0F {
   text-align: center;
 }
-#pluginNotice,
-.DevilBro-notice,
 .notice-3I4-y_ {
   border-radius: 0 !important;
 }
 .no-search-results .sad-discord {
-  background-image: url('data:image/svg+xml;utf8,<svg width="97" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style id="dark-mode-custom-style"/><defs><path id="path-1" d="M0 .3437h97V70H0"/></defs><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="Page-1"><g id="Group-3"><path d="M63.7925 49.8218c-4.6413 0-8.404-4.0841-8.404-9.1215 0-2.3507.8195-4.4933 2.165-6.1107l14.3903 8.3344c-.915 3.9626-4.2167 6.8978-8.1513 6.8978m-30.5849 0c-3.9346 0-7.2363-2.9352-8.1513-6.8978l14.3903-8.3344c1.3454 1.6174 2.165 3.76 2.165 6.1107 0 5.0374-3.7628 9.1215-8.404 9.1215m51.6637-40.633C75.2377 1.1177 62.0015.3436 62.0015.3436l-1.102 1.3823c12.399 2.9144 21.4919 10.5037 21.4919 10.5037C66.2466 2.9896 48.5 4.2133 48.5 4.2133s-17.7465-1.2237-33.8913 8.0163c0 0 9.0925-7.5893 21.492-10.5037L34.9985.3436s-13.2363.7741-22.8699 8.8452c0 0-12.4127 21.9-12.1239 48.6489 0 0 6.9866 11.8426 25.3499 12.1622l5.7864-7.1866s-4.8862-.3223-10.195.2763c0 0 8.0606-3.317 27.554-3.317 19.4932 0 27.5538 3.317 27.5538 3.317-5.3088-.5986-10.195-.2763-10.195-.2763l5.7865 7.1866c18.3633-.3196 25.3495-12.1622 25.3495-12.1622.2891-26.7489-12.1236-48.6489-12.1236-48.6489" id="Fill-1" fill="#99AAB5"/></g><path d="M60 67c-2.7615 0-5-2.2612-5-5.0507C55 59.1597 60 51 60 51s5 8.1597 5 10.9493C65 64.7388 62.7615 67 60 67z" id="Fill-4" fill="#99AAB5"/><path d="M65 61.9493C65 64.7388 62.7615 67 60 67s-5-2.2612-5-5.0507C55 59.1597 60 51 60 51s5 8.1597 5 10.9493z" id="Stroke-6" stroke="#222" stroke-width="1"/></g></g></svg>'); 
+  background-image: url('data:image/svg+xml;utf8,<svg width="97" height="70" xmlns="http://www.w3.org/2000/svg"><style id="dark-mode-custom-style"/><defs><path id="path-1" d="M0 .34h97V70H0"/></defs><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="Page-1"><g id="Group-3"><path d="M63.8 49.82c-4.65 0-8.41-4.08-8.41-9.12 0-2.35.82-4.5 2.16-6.11l14.4 8.33c-.92 3.97-4.22 6.9-8.16 6.9m-30.58 0c-3.94 0-7.24-2.93-8.15-6.9l14.39-8.33a9.54 9.54 0 0 1 2.16 6.11c0 5.04-3.76 9.12-8.4 9.12M84.87 9.2C75.24 1.12 62 .34 62 .34l-1.1 1.39a57.98 57.98 0 0 1 21.5 10.5C66.24 2.99 48.5 4.21 48.5 4.21S30.75 3 14.6 12.23c0 0 9.1-7.59 21.5-10.5L35 .34s-13.24.78-22.87 8.85c0 0-12.41 21.9-12.13 48.65 0 0 7 11.84 25.35 12.16l5.8-7.19s-4.9-.32-10.2.28c0 0 8.06-3.32 27.55-3.32 19.5 0 27.55 3.32 27.55 3.32-5.3-.6-10.2-.28-10.2-.28l5.8 7.19C90 69.68 96.99 57.84 96.99 57.84c.3-26.75-12.12-48.65-12.12-48.65" id="Fill-1" fill="#99AAB5"/></g><path d="M60 67c-2.76 0-5-2.26-5-5.05S60 51 60 51s5 8.16 5 10.95A5.03 5.03 0 0 1 60 67z" id="Fill-4" fill="#99AAB5"/><path d="M65 61.95c0 2.79-2.24 5.05-5 5.05s-5-2.26-5-5.05S60 51 60 51s5 8.16 5 10.95z" id="Stroke-6" stroke="#222"/></g></g></svg>'); 
 }
 
 
@@ -1094,6 +1095,36 @@
 }
 #bd-settingspane-container .ui-switch-wrapper:active .ui-switch.checked:before {
   left: -4px !important;
+}
+#bd-settings-sidebar .selected {
+  background: rgba(40, 40, 40, 0.8) !important;
+  color: white !important;
+}
+#bd-settingspane-container .ui-switch.checked {
+  background: darkgreen !important;
+  border-color: darkgreen !important;
+}
+#bd-settingspane-container .ui-switch {
+  border-radius: 10px !important;
+}
+.bd-pfbtn,
+.bda-settings-button,
+#bd-settingspane-container .plugin-settings button,
+.ui-standard-sidebar-view .bda-slist button,
+.bd-modal button {
+  background: slategray !important;
+  color: white !important;
+}
+.bd-pfbtn:hover,
+.bda-settings-button:hover,
+#bd-settingspane-container .plugin-settings button:hover,
+.ui-standard-sidebar-view .bda-slist button:hover,
+.bd-modal button:hover {
+  background: darkslategray !important;
+  color: white !important;
+}
+#bd-settingspane-container .plugin-settings button {
+  border-radius: 5px;
 }
 .plugin-setting-label:not([style*="rgb(17, 17, 17)"]) {
   color: gray !important;
@@ -1186,4 +1217,21 @@
   background: #191818;
   border-color: #111;
   color: white;
+}
+
+/** ---- Misc ---- **/
+.citar-btn {
+  background-color: hsla(0, 0%, 0%, 0.15);
+  color: #888 !important;
+}
+#files_directDownload .file svg {
+  fill: #888;
+}
+#files_directDownload .file .progress-bar {
+  height: 3px;
+  background: darkgreen;
+}
+#pluginNotice,
+.DevilBro-notice {
+  radius: 0 !important;
 }

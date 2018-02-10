@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.3
+
+- New attach file button
+- Rearrange BD code
+- Minor fixes
+
 ## v1.0.2
 
 - Fix scrollbars on web
