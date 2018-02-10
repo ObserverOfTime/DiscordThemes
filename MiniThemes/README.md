@@ -1,6 +1,6 @@
 # Mini Themes
 
-Themes for the desktop client, meant to compliment other themes.
+Themes for the desktop client, meant to complement other themes.
 
 ### [Restore Titlebar](RestoreTitlebar)
 

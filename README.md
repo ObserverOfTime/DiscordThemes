@@ -19,7 +19,7 @@ A theme based on the Devilman mythos.
 
 ### [Mini Themes](MiniThemes)
 
-Themes for the desktop client, meant to compliment other themes. Details in the link.
+Themes for the desktop client, meant to complement other themes. Details in the link.
 
 ## Installing
 
