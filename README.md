@@ -32,7 +32,7 @@ Themes for the desktop client, meant to complement other themes. Details in the 
 ### Web
 
 - [Stylus](https://github.com/openstyles/stylus)
-- [Stylish](https://github.com/stylish-userstyles/stylish)
+- [xStyle](https://github.com/FirefoxBar/xStyle)
 
 > Instructions on applying each theme can be found in their respective README.
 
