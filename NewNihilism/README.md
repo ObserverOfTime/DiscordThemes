@@ -2,8 +2,8 @@
 
 **A dark and compact theme, designed for use with Discord's dark theme.**
 
-[![Desktop](https://img.shields.io/badge/Desktop-v1.0.3-yellowgreen.svg)](src/NewNihilism.css)
-[![Web](https://img.shields.io/badge/Web-v1.0.3-brightgreen.svg)](userstyles/NewNihilism.css)
+[![Desktop](https://img.shields.io/badge/Desktop-v1.0.4-yellowgreen.svg)](src/NewNihilism.css)
+[![Web](https://img.shields.io/badge/Web-v1.0.4-brightgreen.svg)](userstyles/NewNihilism.css)
 
 ## Features
 
@@ -46,3 +46,4 @@ _(checkmark = autoupdating)_
 - ✓ xStyle:
   - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
   - In xStyle's options, find `New Nihilism` and click on `AUTOMATIC UPDATE`
+

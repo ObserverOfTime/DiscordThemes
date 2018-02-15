@@ -1,4 +1,4 @@
-/** ---- New Nihilism v1.0.3 by Observer of Time ---- **/
+/** ---- New Nihilism v1.0.4 by Observer of Time ---- **/
 
 /** ---- Features ----
  *  Compact lists
@@ -60,6 +60,8 @@
   }
   .guilds-wrapper .guilds-error {
     line-height: 30px;
+    line-height: 32px;
+    padding-right: 1px;
   }
   .guilds-wrapper .guilds .guild.unread::before {
     transition: 0.2s ease-in-out all;
@@ -146,8 +148,14 @@
   .chat .new-messages-bar:hover {
     background: #333;
   }
+  .message-group {
+    padding: 15px 0;
+  }
   .message-group .avatar-large {
     margin-left: 1.5px;
+  }
+  .message-group .comment code.inline {
+    padding-top: 0.1em !important;
   }
   .message-group.compact .comment {
     margin-left: -30px;
@@ -209,9 +217,10 @@
     color: silver;
   }
   .attachButton-Di6YUh {
-    margin-right: 10px;
-    margin-left: 12px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAABwUlEQVR4Ae3QA4yeXRTE8VnbZvCZtW0zrm3bZlTbDmrbep/7v2sGVVgrVt1orXB/Mc7M5KiSVUP4EE084dbDlu3whqjNZjJ4wj1mE+dSKaUow40uwCmG0IsFZHPcJBqVQqqy3Gw3slhtQpCjM6IBGSzDE5XgmS7KdiWLlSbgZ5cVE0knjpIGp39tzWC5ibV/kuy4G0mIpjzhf0o1eDn/soMsHjLI8TBCtOex+Z1SDF7Of5ziPv2YyRJ+t7JerOW8CaEUg//jJDf5H9lo+vN/ihuDybO97ymt2MHZX07/4SQ37D8umTiOcJFE2598pqR4pahQL7RRtjuZLKcmJ7nKP4hYDvCQxgwklyn4oEJZWbcvp18HR7KNK+YvZBN+nPYnm0mOt1GhHKWKDmR9OQ1wPGwb+/VBcRzGoSH9yGOSy8ulIiDiuM1hE4QkZGRiOICLRvQlh8nWx6pIRrY57xjHz6h4DvLANKYvWUyyPqgYiLZ8ZHyqu/1+eggX9elNNhPxQsWysr+Sx23iU2QSOMxDGryT6cUwx8dRCaxS3RlFHrtZxm1uUf+tEMINlQJyvOnGTo6xkN8QKiOErw00HqhKVPsM3BA/X1L87hgAAAAASUVORK5CYII=') no-repeat center;
+    margin-top: 9px;
+    margin-right: 8px;
+    margin-left: 11px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAACJVBMVEUAAADMzMzk5OTY2Njd3d3///+AgIDGxsbS0tLS0tLR0dHR0dHR0dHW1tbj4+Ph4eHS0tLQ0NDPz8/R0dHPz8/Pz8/S0tLT09P////T09PR0dHPz8/R0dHS0tLV1dXQ0NDQ0NDV1dX////T09PQ0NDQ0NDR0dHV1dXQ0NDR0dHr6+v////V1dXR0dHS0tLa2trOzs7R0dHi4uLY2NjPz8/V1dX////k5OTR0dHQ0NDj4+PS0tLOzs7h4eHU1NTPz8/R0dHb29vZ2dnR0dHb29vW1tbPz8/Q0NDU1NTOzs7Ozs7Pz8/W1tba2trT09PPz8/V1dXPz8/R0dHQ0NDPz8/W1tbU1NTT09PPz8/Q0NDX19ff39/S0tLQ0NDQ0NDPz8/Q0NDW1tbQ0NDQ0NDPz8/////c3NzR0dHQ0NDPz8/d3d3R0dHR0dHX19fOzs7T09PV1dXPz8/Q0NDOzs7Ozs7V1dXQ0NDR0dHOzs7Q0NDPz8/T09POzs7Pz8/T09PQ0NDQ0NDPz8/b29vZ2dnS0tLR0dHR0dHR0dHNzc3q6urS0tLT09PQ0NDQ0NDQ0NDQ0NDW1tbS0tLPz8/R0dHe3t6qqqrPz8/Pz8/R0dHS0tLU1NTPz8/R0dHZ2dnOzs7T09PPz8/U1NTPz8/X19fT09PPz8+/v7/R0dHS0tL////c3NzQ0NDOzs7R0dHS0tLR0dHPz8/Q0NDQ0NDR0dHPz8/U1NTb29u70Y0bAAAAt3RSTlMABRMaDwUCCTNhdXRTJQkRZ6yjl6qugUADRpqLVDk9nYkxASOHlDdan2kNBEihaymIjxoNIB4GHH+NEnyTIk2GYysobw4slXxftaFwUCJRm1SeeZGWODtMdqItGHaXbKBhSl2SjgckemKxJYCqP7JSN7ZGkZgMp3CdcqFXsGpLnmiEIxuSe0KVmgw/XSt+c5w+SqVZHwN1lENQNaRuFI0pe0GfEzqmBBZJAh28Yl5xMrSjg0hbUwdbzQ3AAAABQ0lEQVQoz2NkwAsYqSnNCAa/cEizQ6QZP2GV5ofKMn7/hEVaAqoVpOoeprQyUPgW0AyQsmsY0tpA0QeflO4p8QIZ5zCkja9xcj82YWQ8Zc7IePIfhrQV1F3Xtd4LMe7BkHZlhIP/23+jS2urQqTeigCJZRgeiwZLHrLf7AekZmNIp+13AoofdAApmogZagVg3UdtGE9arISFCpJ0JUh2pwcj44ZAxjoM3c2L4hnPmC4x0v7E/4OzHF1aKeOylMhXZs43okAzCjAilO93iLBQNzfQhhtbS3IwpJnkcs9dyOotYWS8YFj2EUN6FtDMZAbm2Y/l9ty/9wJDumh+/+NahoWMX3hjsaW1JYwMn/kYv7KxMYZjk151W+25FNDLa5diTanaLfeUz5gyltz+jz0hS3BPYGTM4byGK50rTYn4/J+6mQgAotVYH1P7msgAAAAASUVORK5CYII=') no-repeat center;
     opacity: 0.6;
     transition: opacity 0.1s;
   }
@@ -676,6 +685,9 @@
   .search-popout .results-group:before {
     display: none;
   }
+  .search-popout .search-query {
+    border-bottom: none;
+  }
   .search-popout .search-option .filter {
     color: #808080;
   }
@@ -746,7 +758,9 @@
   .clipboardInputInner-oj8y-S button,
   .uploadModal-2KN6Mm .button,
   .private-channel-recipients-invite button,
-  .primaryButton-1ZHZe8 {
+  .primaryButton-1ZHZe8,
+  .lookFilled-luDKDo,
+  .lookLink-3VWONr {
     background: slategray !important;
     color: white !important;
   }
@@ -767,7 +781,9 @@
   .clipboardInputInner-oj8y-S button:hover,
   .uploadModal-2KN6Mm .button:hover,
   .private-channel-recipients-invite button:not(:disabled):hover,
-  .primaryButton-1ZHZe8:hover {
+  .primaryButton-1ZHZe8:hover,
+  .lookFilled-luDKDo:hover,
+  .lookLink-3VWONr:hover {
     background: darkslategray !important;
     color: white !important;
   }

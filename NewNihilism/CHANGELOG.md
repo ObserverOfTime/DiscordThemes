@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.04
+
+- Minor fixes
+
 ## v1.0.3
 
 - New attach file button
@@ -21,3 +25,4 @@
 ## v1.0.0
 
 - New release
+
