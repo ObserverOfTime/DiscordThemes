@@ -1,9 +1,9 @@
 @-moz-document domain("discordapp.com") {
 /******  New Nihilism      ******/
-/******  Version 1.0.5     ******/
-/******  Observer of Time  ******/
 
-{}
+/******  Version 1.0.5     ******/
+
+/******  Observer of Time  ******/
 
 /*********** Features ************
  *  Compact lists                *
@@ -1136,7 +1136,7 @@
 }
 
 /** ---- Firefox Fixes ---- **/
-@media screen and (-moz-appearance: none) {
+@supports (-moz-appearance: none) {
 	[class^="scroller"] {
 		overflow-x: hidden !important;
 	}
