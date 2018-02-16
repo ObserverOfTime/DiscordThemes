@@ -293,6 +293,15 @@
 .friends-column-status .status-offline + .status-text {
   color: #747F8D;
 }
+#friends .tab-bar .badge {
+  background-color: slategray !important;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-accept:hover {
+  background-color: darkgreen !important;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-ignore:hover {
+  background-color: #f04747 !important;
+}
 
 /** ---- Avatars and Statuses ---- **/
 [class*="avatar"],
@@ -411,29 +420,29 @@
 }
 
 /** ---- User Modals ---- **/
-.userPopout-4pfA0d .body-3rkFrF,
-.userPopout-4pfA0d .footer-2J5zqP,
+.userPopout-11hFKo .body-3ljq11,
+.userPopout-11hFKo .footer-2wFs91,
 .root-2sNHUF .body-3_tdh6,
 .topSectionPlaying-3jAH9b,
 .topSectionStreaming-3rIBIm,
 .topSectionSpotify-3744IX,
-.headerPlaying-2eYqm9,
-.headerStreaming-3F-wjT,
-.headerSpotify-1fSJPO,
+.headerPlaying-2Q7mBy,
+.headerStreaming-lmgoma,
+.headerSpotify-26yUf5,
 #autocomplete-popout .autocomplete-scroller {
   background: #202225 !important;
 }
-.headerPlaying-2eYqm9 .activity-AFBUEw,
+.headerPlaying-2Q7mBy .activityUserPopout-1nmgaw,
 .topSectionPlaying-3jAH9b .activityProfile-2pymp0 {
   background-color: hsla(210, 40%, 13%, 0.7);
 }
-.headerStreaming-3F-wjT .activity-AFBUEw,
+.headerStreaming-lmgoma .activityUserPopout-1nmgaw,
 .topSectionStreaming-3rIBIm .activityProfile-2pymp0 {
   background-color: hsla(288, 40%, 13%, 0.7);
 }
-.headerSpotify-1fSJPO .activity-AFBUEw,
+.headerSpotify-26yUf5 .activityUserPopout-1nmgaw,
 .topSectionSpotify-3744IX .activityProfile-2pymp0 {
-  background-color: hsla(133, 33%, 10%, 0.7)
+  background-color: hsla(133, 33%, 10%, 0.7);
 }
 .addButton-3RuTE0,
 .role-3rahR_,
@@ -451,6 +460,10 @@
 }
 #autocomplete-popout h3 {
   margin-left: 55px;
+}
+.quickMessage-OCo-Q0 {
+  border-radius: 6px;
+  background-color: #111 !important;
 }
 
 /** ---- Server Modal ---- **/
@@ -748,6 +761,7 @@
 .uploadModal-2KN6Mm .button,
 .private-channel-recipients-invite button,
 .primaryButton-1ZHZe8,
+.lookOutlined-1c5nhl,
 .lookFilled-luDKDo,
 .lookLink-3VWONr {
   background: slategray !important;
@@ -771,6 +785,7 @@
 .uploadModal-2KN6Mm .button:hover,
 .private-channel-recipients-invite button:not(:disabled):hover,
 .primaryButton-1ZHZe8:hover,
+.lookOutlined-1c5nhl:hover,
 .lookFilled-luDKDo:hover,
 .lookLink-3VWONr:hover {
   background: darkslategray !important;
@@ -787,7 +802,7 @@
 .buttonPrimaryLinkDefault-1PQflF {
   margin-right: 5px;
 }
-.add-game-popout button {
+.now-playing-add button {
   margin-left: 5px;
 }
 .connectionDelete-1E0cwj,

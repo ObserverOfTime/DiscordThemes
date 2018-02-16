@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.05
+
+- Update for new classes
+- Fix Firefox scrollbars
+
 ## v1.04
 
 - Minor fixes
