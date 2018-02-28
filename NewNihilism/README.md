@@ -33,7 +33,7 @@
 
 ### Web
 
-[![Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](dist/NewNihilism.user.css)
+[![Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://observeroftime.github.io/DiscordThemes/NewNihilism/dist/NewNihilism.user.css)
 
 [![Userstyles](https://img.shields.io/badge/Install%20from-userstyles.org-238b8b.svg)](https://userstyles.org/styles/147291)
 
