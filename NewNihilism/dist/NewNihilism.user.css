@@ -1,5 +1,16 @@
-//META{"name":"NewNihilism", "description":"A dark and compact theme, designed for use with Discord's dark theme.", "author":"Observer of Time", "version":"1.1.0"}*//{}
+/* ==UserStyle==
+@name        New Nihilism
+@author      ObserverOfTime <chronobserver@disroot.org>
+@version     1.1.0
+@namespace   https://github.com/ObserverOfTime/DiscordThemes
+@homepageURL https://observeroftime.github.io/DiscordThemes
+@supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
+@updateURL   https://observeroftime.github.io/DiscordThemes/NewNihilism/dist/NewNihilism.user.css
+@license     MIT
+==/UserStyle== */
 
+@-moz-document domain("discordapp.com") {
+  
 /** ---- Server Area ---- **/
 .guilds-wrapper {
   border-right: none;
@@ -1109,155 +1120,51 @@
   background-color: darkslategray;
 }
 
+/** ---- Web Stuff ---- **/
 
-/** ---- BetterDiscord Stuff ---- **/
-
-/** ---- Settings ---- **/
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar {
-  display: none;
-}
-#bd-settingspane-container .ui-switch-wrapper:active .ui-switch::before {
-  width: 26px !important;
-}
-#bd-settingspane-container .ui-switch-wrapper:active .ui-switch.checked::before {
-  left: -4px !important;
-}
-#bd-settings-sidebar .selected {
-  background: rgba(40, 40, 40, 0.8) !important;
-  color: white !important;
-}
-#bd-settingspane-container .ui-switch.checked {
-  background: darkgreen !important;
-  border-color: darkgreen !important;
-}
-#bd-settingspane-container .ui-switch {
-  border-radius: 10px !important;
-}
-.bd-pfbtn,
-.bda-settings-button,
-#bd-settingspane-container .plugin-settings button,
-.ui-standard-sidebar-view .bda-slist button,
-.bd-modal button {
-  background: slategray !important;
-  color: white !important;
-}
-.bd-pfbtn:hover,
-.bda-settings-button:hover,
-#bd-settingspane-container .plugin-settings button:hover,
-.ui-standard-sidebar-view .bda-slist button:hover,
-.bd-modal button:hover {
-  background: darkslategray !important;
-  color: white !important;
-}
-#bd-settingspane-container .plugin-settings button {
-  border-radius: 5px;
-}
-.plugin-setting-label:not([style*="rgb(17, 17, 17)"]) {
-  color: gray !important;
-}
-.plugin-setting-label[style*="rgb(17, 17, 17)"] {
-  color: white !important;
-}
-.bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
-  background-color: rgba(40, 40, 40, 0.8) !important;
-}
-.bd-blue *[style*="border-color: rgb(114, 137, 218)"] {
-  border-color: #111 !important;
+/** ---- Hide Apps Button ---- **/
+.guilds-wrapper .btn-download-apps {
+	display: none;
 }
 
-/** ---- Emoji Menu ---- **/
-[id*="bda-qem"],
-.preview-container .preview-wrapper {
-  color: #DDD;
-  background-color: #333 !important;
-  border-left: none !important;
-  border-right: none !important;
-  box-shadow: none !important;
-}
-.preview-container {
-  position: relative;
-  right: 2px !important;
-}
-[id*="bda-qem"] .scroller::-webkit-scrollbar {
-  display: none;
-}
-
-/** ---- CSS Editor ---- **/
-#bd-customcss-editor {
-  background: #222;
-}
-#bd-customcss-attach-controls {
-  background: #202225 !important;
-}
-#bd-customcss-attach-controls button {
-  background: #2d2f31;
-}
-#bd-customcss-attach-controls button:hover {
-  background: #2b2424 !important;
-}
-#editor-detached button {
-  background: slategray !important;
-}
-#editor-detached button:hover {
-  background: darkslategray !important;
-}
-.ace_gutter-layer {
-  background: #202225;
-  border-right: 1px solid #333;
-}
-.ace_scroller {
-  right: 5px !important;
-  bottom: 5px !important;
-}
-.ace_scrollbar {
-  display: none;
-}
-.ace_search {
-  background: #111;
-  border: none;
-}
-.ace_button:hover,
-.ace_searchbtn:hover {
-  background: darkslategray;
-}
-.ace_button {
-  color: white;
-}
-.ace_button.checked {
-  border-color: black;
-  background-color: hsl(0, 3%, 15%);
-}
-.ace_search_field,
-.ace_searchbtn {
-  background: #222;
-  border: none;
-  color: white;
-}
-.ace_search_form.ace_nomatch {
-  outline: 2px solid darkred;
-}
-.ace_searchbtn:last-child {
-  border-right: none;
-}
-.ace_tooltip {
-  background: #191818;
-  border-color: #111;
-  color: white;
+/** ---- Firefox Fixes ---- **/
+@supports (-moz-appearance: none) {
+	::-moz-selection {
+		background-color: #999 !important;
+		color: #EEE !important;
+	}
+	[class^="scroller"] {
+		overflow-x: hidden !important;
+	}
+	.scroller-wrap .scrollbar {
+		width: 17px;
+	}
+	.scroller-fzNley,
+	.channel-members-wrap,
+	.friends-table-body.scroller,
+	.messages.scroller {
+		margin-right: -17px;
+	}
+	.scroller-fzNley:not(.inner-tqJwAU) {
+		padding-right: 0;
+	}
+	.channel-members .member .member-username,
+	.channel-members .member .member-activity-text {
+		padding-right: 22px;
+	}
+	.messages-wrapper .scroller-wrap .track {
+		background: #36393e !important;
+	}
+	.messages-wrapper .scroller-wrap .thumb {
+		min-height: 30px;
+		width: 15px
+	}
+	.channelTextArea-os01xC .inner-3if5cm {
+		height: 45px !important;
+	}
+	.scrollbar::after {
+		display: none;
+	}
 }
 
-/** ---- Misc ---- **/
-.citar-btn {
-  background-color: hsla(0, 0%, 0%, 0.15);
-  color: #888 !important;
-}
-#files_directDownload .file svg {
-  fill: #888;
-}
-#files_directDownload .file .progress-bar {
-  height: 3px;
-  background: darkgreen;
-}
-#pluginNotice,
-.DevilBro-notice {
-  border-radius: 0 !important;
 }

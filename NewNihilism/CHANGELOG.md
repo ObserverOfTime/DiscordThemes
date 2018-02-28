@@ -1,11 +1,21 @@
 # Changelog
 
-## v1.05
+## v1.1.0
+
+- Fix buttons
+- Fix svgs
+- More minor fixes
+- Add UserCSS for Stylus
+- Remove CCSS support from README
+- Remove xStyle support from README
+- Rearrange repo layout
+
+## v1.0.5
 
 - Update for new classes
 - Fix Firefox scrollbars
 
-## v1.04
+## v1.0.4
 
 - Minor fixes
 

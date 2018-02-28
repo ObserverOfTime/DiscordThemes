@@ -2,8 +2,8 @@
 
 **A dark and compact theme, designed for use with Discord's dark theme.**
 
-[![Desktop](https://img.shields.io/badge/Desktop-v1.0.5-yellowgreen.svg)](src/NewNihilism.css)
-[![Web](https://img.shields.io/badge/Web-v1.0.5-brightgreen.svg)](userstyles/NewNihilism.web.css)
+[![Desktop](https://img.shields.io/badge/Desktop-v1.1.0-yellowgreen.svg)](src/NewNihilism.css)
+[![Web](https://img.shields.io/badge/Web-v1.1.0-brightgreen.svg)](src/NewNihilism.web.css)
 
 ## Features
 
@@ -20,30 +20,22 @@
 ## Previews
 
 ### Desktop
-![Desktop](img/preview.png)
+![Desktop](img/desktop-preview.png)
 
 ### Web
-![Web](userstyles/preview.png)
+![Web](img/web-preview.png)
 
-## Applying
-
-_(checkmark = autoupdating)_
+## Installation
 
 ### Desktop
-- Option 1:
-  - [Download](https://betterdiscord.net/ghdl?id=1345) the theme
-  - Place it in BetterDiscord's theme folder
-  - Reload and enable it in your settings
-- ✓ Option 2:
-  - Write the following line in your custom CSS: `@import url("https://observeroftime.github.io/DiscordThemes/NewNihilism/src/NewNihilism.min.css");`
-  - Click `Save` and `Update`
+
+[![BetterDiscord](https://img.shields.io/badge/Download%20for-BetterDiscord-285959.svg)](https://betterdiscord.net/ghdl?id=1345)
 
 ### Web
 
-- ✓ Stylus:
-  - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
-  - _Optional: In Stylus' options, reduce the autoupdate interval from 24 hours to 1_
-- ✓ xStyle:
-  - Install the theme from [Userstyles](https://userstyles.org/styles/147291/)
-  - In xStyle's options, find `New Nihilism` and click on `AUTOMATIC UPDATE`
+[![Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](dist/NewNihilism.user.css)
+
+[![Userstyles](https://img.shields.io/badge/Install%20from-userstyles.org-238b8b.svg)](https://userstyles.org/styles/147291)
+
+
 
