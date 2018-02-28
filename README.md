@@ -21,18 +21,22 @@ A theme based on the Devilman mythos.
 
 Themes for the desktop client, meant to complement other themes. Details in the link.
 
-## Installing
+## Requirements
 
 ### Desktop
-- BetterDiscord
-  - [Windows](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordWI.exe)
-  - [Linux](https://github.com/ObserverOfTime/betterdiscordctl#betterdiscordctl)
-  - [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordMacInstaller.zip)
+
+**BetterDiscord:**
+
+- [Windows](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordWI.exe)
+- [Linux](https://github.com/bb010g/betterdiscordctl#betterdiscordctl)
+- [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordMacInstaller.zip)
 
 ### Web
 
-- [Stylus](https://github.com/openstyles/stylus)
-- [xStyle](https://github.com/FirefoxBar/xStyle)
+**Stylus:**
 
-> Instructions on applying each theme can be found in their respective README.
+- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+- [Firefox](https://addons.mozilla.org/firefox/addon/styl-us)
+- [Opera](https://addons.opera.com/extensions/details/stylus)
+
 
