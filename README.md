@@ -27,9 +27,9 @@ Themes for the desktop client, meant to complement other themes. Details in the 
 
 **BetterDiscord:**
 
-- [Windows](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordWI.exe)
+- [Windows](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.exe)
 - [Linux](https://github.com/bb010g/betterdiscordctl#betterdiscordctl)
-- [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.2.82/BetterDiscordMacInstaller.zip)
+- [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BetterDiscordMacInstaller.zip)
 
 ### Web
 
