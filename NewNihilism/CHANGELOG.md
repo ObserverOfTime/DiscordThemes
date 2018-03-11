@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.1
+
+- Fix buttons
+- Fix member list lazyloading
+- More minor fixes
+- Add streaming status color
+- Remove broken Firefox fixes (I'm not bothering with that again)
+
 ## v1.1.0
 
 - Fix buttons
