@@ -1,12 +1,17 @@
 # Changelog
 
+## v1.1.2
+
+- Fix buttons again
+- More themed BD plugins
+
 ## v1.1.1
 
 - Fix buttons
 - Fix member list lazyloading
 - More minor fixes
 - Add streaming status color
-- Remove broken Firefox fixes (I'm not bothering with that again)
+- Remove broken web fixes (I'm not bothering with web scrollbars again)
 
 ## v1.1.0
 

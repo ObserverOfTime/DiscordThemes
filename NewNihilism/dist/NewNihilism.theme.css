@@ -1,4 +1,4 @@
-//META{"name":"NewNihilism", "description":"A dark and compact theme, designed for use with Discord's dark theme.", "author":"Observer of Time", "version":"1.1.0"}*//{}
+//META{"name":"NewNihilism", "description":"A dark and compact theme, designed for use with Discord's dark theme.", "author":"Observer of Time", "version":"1.1.2"}*//{}
 
 /** ---- Server Area ---- **/
 .guilds-wrapper {
@@ -782,7 +782,8 @@
 .lookOutlined-1c5nhl,
 .lookFilled-luDKDo,
 .lookLink-3VWONr,
-.buttonInvertedPurple-15OGid {
+.lookInverted-2lPGe7,
+.private-channel-recipients-invite button {
   background: slategray !important;
   color: white !important;
 }
@@ -794,17 +795,18 @@
 .lookOutlined-1c5nhl:hover,
 .lookFilled-luDKDo:hover,
 .lookLink-3VWONr:hover,
-.buttonInvertedPurple-15OGid:hover {
+.lookInverted-2lPGe7:hover,
+.private-channel-recipients-invite button:not(:disabled):hover {
   background: darkslategray !important;
   color: white !important;
 }
 .lookFilled-luDKDo.colorRed-3HTNPV,
 .lookOutlined-1c5nhl.colorRed-3HTNPV {
-  background-color: crimson !important;
+  background: crimson !important;
 }
 .lookFilled-luDKDo.colorRed-3HTNPV:hover,
-.lookFilled-luDKDo.colorRed-3HTNPV:hover {
-  background-color: firebrick !important;
+.lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
+  background: firebrick !important;
 }
 .button-2TvR03:hover {
   background: darkslategray;
@@ -1109,6 +1111,9 @@
 .container-1WaXoH section {
   background-color: #444 !important;
 }
+.container-1WaXoH section::after {
+  border-top-color: #444 !important;
+}
 .container-1WaXoH p {
   color: #CCC !important;
 }
@@ -1123,6 +1128,24 @@
 }
 .no-search-results .sad-discord {
   background-image: url('data:image/svg+xml;UTF8,<svg width="97" height="70" xmlns="http://www.w3.org/2000/svg"><style id="dark-mode-custom-style"/><defs><path id="path-1" d="M0 .34h97V70H0"/></defs><g id="General-Playground" fill="none" fill-rule="evenodd"><g id="Page-1"><g id="Group-3"><path d="M63.8 49.82c-4.65 0-8.41-4.08-8.41-9.12 0-2.35.82-4.5 2.16-6.11l14.4 8.33c-.92 3.97-4.22 6.9-8.16 6.9m-30.58 0c-3.94 0-7.24-2.93-8.15-6.9l14.39-8.33a9.54 9.54 0 0 1 2.16 6.11c0 5.04-3.76 9.12-8.4 9.12M84.87 9.2C75.24 1.12 62 .34 62 .34l-1.1 1.39a57.98 57.98 0 0 1 21.5 10.5C66.24 2.99 48.5 4.21 48.5 4.21S30.75 3 14.6 12.23c0 0 9.1-7.59 21.5-10.5L35 .34s-13.24.78-22.87 8.85c0 0-12.41 21.9-12.13 48.65 0 0 7 11.84 25.35 12.16l5.8-7.19s-4.9-.32-10.2.28c0 0 8.06-3.32 27.55-3.32 19.5 0 27.55 3.32 27.55 3.32-5.3-.6-10.2-.28-10.2-.28l5.8 7.19C90 69.68 96.99 57.84 96.99 57.84c.3-26.75-12.12-48.65-12.12-48.65" id="Fill-1" fill="#99AAB5"/></g><path d="M60 67c-2.76 0-5-2.26-5-5.05S60 51 60 51s5 8.16 5 10.95A5.03 5.03 0 0 1 60 67z" id="Fill-4" fill="#99AAB5"/><path d="M65 61.95c0 2.79-2.24 5.05-5 5.05s-5-2.26-5-5.05S60 51 60 51s5 8.16 5 10.95z" id="Stroke-6" stroke="#222"/></g></g></svg>') !important;
+}
+.noChannel-2EQ0a9 .image-3Y4mXQ {
+  width: 480px !important;
+  height: 293px !important;
+  background: url("https://kek.gg/i/PRq7W.jpg") !important;
+}
+.noChannel-2EQ0a9 .title-38OOBL {
+  visibility: hidden;
+  font-size: 0;
+  margin-top: -15px;
+}
+.noChannel-2EQ0a9 .title-38OOBL::before {
+  visibility: visible;
+  content: "404: TEXT CHANNELS NOT FOUND!";
+  font-size: 20px;
+}
+.noChannel-2EQ0a9 .text-1rLRsh {
+  display: none;
 }
 .invite-CTGItT .helpIcon-WaXXVy {
   background-color: slategray;
@@ -1156,26 +1179,30 @@
 #bd-settingspane-container .ui-switch {
   border-radius: 10px !important;
 }
-.bd-pfbtn,
 .bda-settings-button,
-#bd-settingspane-container .plugin-settings button,
-.ui-standard-sidebar-view .bda-slist button,
-.bd-modal button {
+.bd-pfbtn {
   background: slategray !important;
   color: white !important;
 }
-.bd-pfbtn:hover,
-.bda-settings-button:hover,
-#bd-settingspane-container .plugin-settings button:hover,
-.ui-standard-sidebar-view .bda-slist button:hover,
-.bd-modal button:hover {
+.bda-settings-button:not(:disabled):hover,
+.bd-pfbtn:not(:disabled):hover {
   background: darkslategray !important;
   color: white !important;
+}
+.plugin-settings .buttonRedFilled-1NjJNj {
+  background: crimson;
+  color: white;
+}
+.plugin-settings .buttonRedFilled-1NjJNj:hover {
+  background: firebrick;
 }
 #bd-settingspane-container .plugin-settings button {
   border-radius: 5px;
 }
-.plugin-setting-label:not([style*="rgb(17, 17, 17)"]) {
+.plugin-settings {
+  color: #CCC;
+}
+.plugin-setting-label {
   color: gray !important;
 }
 .plugin-setting-label[style*="rgb(17, 17, 17)"] {
@@ -1211,18 +1238,6 @@
 }
 #bd-customcss-attach-controls {
   background: #202225 !important;
-}
-#bd-customcss-attach-controls button {
-  background: #2d2f31;
-}
-#bd-customcss-attach-controls button:hover {
-  background: #2b2424 !important;
-}
-#editor-detached button {
-  background: slategray !important;
-}
-#editor-detached button:hover {
-  background: darkslategray !important;
 }
 .ace_gutter-layer {
   background: #202225;
@@ -1269,6 +1284,15 @@
 }
 
 /** ---- Misc ---- **/
+li[data-name="NewNihilism"] .bda-description::after {
+  content: "\a\a GitHub: https://git.io/vAaqD";
+}
+.bd-modal-wrapper .footer button {
+  background-color: slategray;
+}
+.bd-modal-wrapper .footer button:hover {
+  background-color: darkslategray;
+}
 .citar-btn {
   background-color: hsla(0, 0%, 0%, 0.15);
   color: #888 !important;
@@ -1280,8 +1304,72 @@
   height: 3px;
   background: darkgreen;
 }
+#settings_directDownload button[name="dldir"],
+#settings_localFileServer button {
+  background-color: #222 !important;
+  color: #DDD;
+}
+#settings_directDownload button.invalid,
+#settings_localFileServer button.invalid {
+  background-color: darkred !important;
+}
 #pluginNotice,
 .DevilBro-notice {
   border-radius: 0 !important;
+}
+.DevilBro-settings .button-1qrA-N {
+  border-radius: 20%;
+  top: -8px;
+  right: -35px;
+}
+.DevilBro-settings svg[name="Checkmark"] {
+  margin: auto;
+}
+.bda-slist .orrie-buttonRed,
+.orrie-buttonRed {
+  background-color: crimson !important;
+}
+.bda-slist .orrie-buttonRed:hover,
+.orrie-buttonRed:hover {
+  background-color: firebrick !important;
+}
+[id^="plugin-settings-"] button:last-child {
+  background-color: crimson;
+  color: white;
+}
+[id^="plugin-settings-"] button:last-child:hover {
+  background-color: firebrick;
+}
+.pluginrepo-modal .pluginEntry.downloadable .btn-download,
+.themerepo-modal .themeEntry.downloadable .btn-download {
+  background-color: slategray !important;
+}
+.pluginrepo-modal .pluginEntry.downloadable .btn-download:hover,
+.themerepo-modal .themeEntry.downloadable .btn-download:hover {
+  background-color: darkslategray !important;
+}
+.pluginrepo-modal .pluginEntry.updated .btn-download,
+.themerepo-modal .themeEntry.updated .btn-download {
+  background-color: darkgreen !important;
+}
+.pluginrepo-modal .pluginEntry.outdated .btn-download,
+.themerepo-modal .themeEntry.outdated .btn-download {
+  background-color: crimson !important;
+}
+.pluginrepo-modal .pluginEntry.outdated .btn-download:hover,
+.themerepo-modal .themeEntry.outdated .btn-download:hover {
+  background-color: firebrick !important;
+}
+.pluginrepo-modal .pluginEntry svg[class="trashIcon"] g,
+.themerepo-modal .themeEntry svg[class="trashIcon"] g {
+  fill: crimson;
+}
+.pluginrepo-modal .pluginEntry svg[class="trashIcon"]:hover g,
+.themerepo-modal .themeEntry svg[class="trashIcon"]:hover g {
+  fill: firebrick;
+}
+.pluginrepo-modal .pluginEntry .favIcon path,
+.themerepo-modal .themeEntry .favIcon path {
+  opacity: 0.7;
 }
 
