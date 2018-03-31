@@ -73,9 +73,6 @@
   .channels-3g2vYe {
     width: 190px;
   }
-  .containerDefault-1bbItS {
-    padding-top: 10px;
-  }
   .containerDefault-7RImuF {
     padding-right: 8px;
   }
@@ -135,6 +132,16 @@
   .chat .new-messages-bar:hover {
     background: #333;
   }
+  .chat .divider-red span {
+    color: transparent !important;
+    width: 113px;
+  }
+  .chat .divider-red span::before {
+    content: "NEW MESSAGES";
+    color: rgba(240, 71, 71, 0.8);
+    position: absolute;
+    top: 8px;
+  }
   .message-group {
     padding: 15px 0;
   }
@@ -166,10 +173,10 @@
     filter: grayscale(90%);
   }
   .attachment-1Vom9D .progress-32_u4R {
-    background: #888;
+    background: #888 !important;
   }
   .attachment-1Vom9D .progressBar-mI5LOq {
-    background: darkgreen;
+    background: darkgreen !important;
   }
   .message-group .emoji {
     width: auto !important;
@@ -180,9 +187,6 @@
     width: 35px !important;
     height: auto;
     margin: 2px 0;
-  }
-  .messages-popout-wrap {
-    width: 520px;
   }
   .modal-3HOjGZ {
     width: 520px;
@@ -231,25 +235,39 @@
   .channel-members .member {
     padding: 5px 15px;
   }
-  .channel-members h2 {
+  .channel-members .old-h2 {
     right: -2px;
     padding: 1px 10px;
     text-align: center;
     position: relative;
   }
-  .channel-members .member + h2 {
-    margin-top: 10px;
+  .member-2FrNV0 + h2,
+  .channel-members .member + .old-h2 {
+    margin-top: 15px;
   }
   .channel-members .member-username,
   .channel-members .member-activity-text {
     max-width: 125px;
   }
+  .member-2FrNV0 .activityText-258pdj {
+    max-width: 135px;
+  }
+  .ownerIcon-2RBgEv,
   .member-owner-icon {
     display: none;
   }
   .channel-members-wrap .channel-members {
     height: calc(100% + 70px);
     padding-bottom: 60px;
+  }
+  .member-2FrNV0 .content-3JzEqq {
+    padding-left: 10px;
+    margin: 0;
+    border-radius: 0;
+  }
+  .member-2FrNV0.popout-open .content-3JzEqq,
+  .member-2FrNV0:hover .content-3JzEqq {
+    background-color: #202225 !important;
   }
 
   /** --- Friend Area ---- **/
@@ -323,6 +341,7 @@
     border-radius: 20% !important;
   }
   .status,
+  .member-2FrNV0 .status-2Devx1,
   .avatarStatus-3VdB8Y {
     width: 100% !important;
     height: 100% !important;
@@ -331,23 +350,31 @@
     left: -2px !important;
   }
   .status-online,
+  .member-2FrNV0 .statusOnline-1Mp2_H,
   .xsmall-2rXiD4 .statusOnline-1Mp2_H {
     border: 2px solid #43B581 !important;
   }
   .status-idle,
+  .member-2FrNV0 .statusIdle-2AQdvu,
   .xsmall-2rXiD4 .statusIdle-2AQdvu {
     border: 2px solid #FAA61A !important;
   }
   .status-dnd,
+  .member-2FrNV0 .statusDnd-35xAXU,
   .xsmall-2rXiD4 .statusDnd-35xAXU {
     border: 2px solid #F04747 !important;
   }
   .status-invisible,
   .status-offline,
+  .member-2FrNV0 .statusInvisible-2ci18Q,
+  .member-2FrNV0 .avatarOffline-YdYOwX,
   .xsmall-2rXiD4 .statusInvisible-2ci18Q,
   .xsmall-2rXiD4 .statusOffline-jZXr_u {
     border: 2px solid #747F8D !important;
     display: block !important;
+  }
+  .memberOffline-lvMbAs {
+    margin-left: -2px;
   }
   .status-streaming {
     border: 2px solid #593695 !important;
@@ -403,9 +430,10 @@
     border: 4px solid #593695 !important;
     box-shadow: none !important;
   }
-  .status.status-typing {
+  .status.status-typing,
+  .statusTyping-lRly31 .spinner-2szMS3 {
     width: 30px !important;
-    background-color: transparent !important;
+    background: transparent !important;
   }
   .status.status-invisible .spinner,
   .status.status-offline .spinner {
@@ -415,6 +443,10 @@
     left: 1px;
     top: 1px;
   }
+  .statusTyping-lRly31 .pulsingEllipsis-36SsC3 {
+    left: 2px;
+  }
+  .statusTypingSpinnerItem-3QkulT,
   .status.status-typing .spinner-item {
     border: 1px solid #222;
   }
@@ -446,6 +478,9 @@
   .headerSpotify-26yUf5,
   #autocomplete-popout .autocomplete-scroller {
     background: #202225 !important;
+  }
+  .userPopout-11hFKo {
+    transform: translateX(15%) translateY(0%) translateZ(0px);
   }
   .headerPlaying-2Q7mBy .activityUserPopout-1nmgaw,
   .topSectionPlaying-3jAH9b .activityProfile-2pymp0 {

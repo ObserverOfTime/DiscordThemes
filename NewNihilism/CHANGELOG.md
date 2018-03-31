@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.0
+- Update for new classes
+- Fix popouts
+- Theme public servers
+- More themed BD plugins
+- Minor fixes
+
 ## v1.1.2
 
 - Fix buttons again
