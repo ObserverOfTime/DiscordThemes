@@ -1,16 +1,22 @@
 # Changelog
 
+## v1.2.1
+- Update for new classes
+- Style auth screen
+- Minor fixes
+- Even more styled BD plugins
+
 ## v1.2.0
 - Update for new classes
 - Fix popouts
-- Theme public servers
-- More themed BD plugins
+- Style public servers
+- More styled BD plugins
 - Minor fixes
 
 ## v1.1.2
 
 - Fix buttons again
-- More themed BD plugins
+- More styled BD plugins
 
 ## v1.1.1
 
