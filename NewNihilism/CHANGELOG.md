@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.3.0
+- Update for new classes
+- Remove obsolete styles
+- Reduce usage of `!important`
+- Convert svgs to base64 to fix loading issues
+- Lots of fixes that I'm too lazy to list
+
 ## v1.2.1
 - Update for new classes
 - Style auth screen
