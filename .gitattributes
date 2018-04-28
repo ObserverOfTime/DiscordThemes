@@ -4,4 +4,5 @@
 *.css   text
 *.html  text
 
-/images/*  binary
+*.svg  binary
+*.png  binary

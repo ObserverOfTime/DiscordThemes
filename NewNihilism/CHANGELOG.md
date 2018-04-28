@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.1
+- Update for new classes
+
 ## v1.3.0
 - Update for new classes
 - Remove obsolete styles
