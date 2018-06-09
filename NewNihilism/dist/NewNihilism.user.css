@@ -1,13 +1,14 @@
-/* ==UserStyle==
-@name        New Nihilism
-@author      ObserverOfTime <chronobserver@disroot.org>
-@version     1.3.1
-@namespace   https://github.com/ObserverOfTime/DiscordThemes
-@homepageURL https://observeroftime.github.io/DiscordThemes
-@supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
-@updateURL   https://observeroftime.github.io/DiscordThemes/NewNihilism/dist/NewNihilism.user.css
-@license     MIT
-==/UserStyle== */
+/** ==UserStyle==
+ *  @name        New Nihilism
+ *  @author      ObserverOfTime <chronobserver@disroot.org>
+ *  @version     1.3.2
+ *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
+ *  @homepageURL https://observeroftime.github.io/DiscordThemes
+ *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
+ *  @updateURL   https://observeroftime.github.io/DiscordThemes/NewNihilism/dist/NewNihilism.user.css
+ *  @license     MIT
+ *  ==/UserStyle==
+ */
 
 @-moz-document domain("discordapp.com") {
 
@@ -30,7 +31,7 @@
     font-size: 15px !important;
   }
   .guilds-wrapper .guilds {
-    margin-left: -2px;
+    margin-left: -3px;
     padding: 20px;
   }
   .guilds-wrapper .guilds .guild .avatar-small {
@@ -63,14 +64,14 @@
   }
   .guilds-wrapper .guilds .guild.unread::before {
     transition: 0.2s ease-in-out all;
-    left: -23px;
+    left: -22px;
     height: 15px;
     top: 42%;
     background: gray;
   }
   .guilds-wrapper .guilds .guild.selected::before {
     transition: 0.2s ease-in-out all;
-    left: -23px;
+    left: -22px;
     height: 30px;
     top: 62%;
     background: darkgray;
@@ -85,12 +86,12 @@
     width: 190px;
   }
   .channels-Ie2l6A .containerDefault-1ZnADq {
-    margin-left: -10px;
+    margin-left: -8px;
     margin-right: -5px;
     margin-bottom: -3px;
   }
   .channels-Ie2l6A .containerDefault-3GGEv_ {
-    left: 5px;
+    left: 7px;
   }
   .channels-Ie2l6A .containerDefault-3GGEv_ [class^="name"] {
     padding-left: 3px;
@@ -130,6 +131,10 @@
   .alt-3btY0e .status {
     display: none;
   }
+  .alt-3btY0e .statusIconText-3b4TkH > div {
+    font-size: 18px;
+    margin-top: 4px;
+  }
   .alt-3btY0e .status-online + div {
     color: #43B581;
   }
@@ -142,9 +147,13 @@
   .alt-3btY0e .status-invisible + div {
     color: #747F8D;
   }
-  .unread-1Dp-OI + .content-20Aix8 .foreground-2W-aJk {
+  .unread-1Dp-OI + .content-20Aix8 .foreground-2W-aJk,
+  .unread-1Dp-OI + .content-20Aix8 .background-2OVjk_ {
     fill: white;
     opacity: 1;
+  }
+  .container-2Thooq {
+    margin-left: -2px;
   }
   .container-3nXdBP header,
   .container-3nXdBP section {
@@ -218,10 +227,10 @@
     color: silver;
   }
   .attachButton-1UjEWA {
-    margin-top: 9px;
-    margin-right: 8px;
-    margin-left: 11px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAACJVBMVEUAAADMzMzk5OTY2Njd3d3///+AgIDGxsbS0tLS0tLR0dHR0dHR0dHW1tbj4+Ph4eHS0tLQ0NDPz8/R0dHPz8/Pz8/S0tLT09P////T09PR0dHPz8/R0dHS0tLV1dXQ0NDQ0NDV1dX////T09PQ0NDQ0NDR0dHV1dXQ0NDR0dHr6+v////V1dXR0dHS0tLa2trOzs7R0dHi4uLY2NjPz8/V1dX////k5OTR0dHQ0NDj4+PS0tLOzs7h4eHU1NTPz8/R0dHb29vZ2dnR0dHb29vW1tbPz8/Q0NDU1NTOzs7Ozs7Pz8/W1tba2trT09PPz8/V1dXPz8/R0dHQ0NDPz8/W1tbU1NTT09PPz8/Q0NDX19ff39/S0tLQ0NDQ0NDPz8/Q0NDW1tbQ0NDQ0NDPz8/////c3NzR0dHQ0NDPz8/d3d3R0dHR0dHX19fOzs7T09PV1dXPz8/Q0NDOzs7Ozs7V1dXQ0NDR0dHOzs7Q0NDPz8/T09POzs7Pz8/T09PQ0NDQ0NDPz8/b29vZ2dnS0tLR0dHR0dHR0dHNzc3q6urS0tLT09PQ0NDQ0NDQ0NDQ0NDW1tbS0tLPz8/R0dHe3t6qqqrPz8/Pz8/R0dHS0tLU1NTPz8/R0dHZ2dnOzs7T09PPz8/U1NTPz8/X19fT09PPz8+/v7/R0dHS0tL////c3NzQ0NDOzs7R0dHS0tLR0dHPz8/Q0NDQ0NDR0dHPz8/U1NTb29u70Y0bAAAAt3RSTlMABRMaDwUCCTNhdXRTJQkRZ6yjl6qugUADRpqLVDk9nYkxASOHlDdan2kNBEihaymIjxoNIB4GHH+NEnyTIk2GYysobw4slXxftaFwUCJRm1SeeZGWODtMdqItGHaXbKBhSl2SjgckemKxJYCqP7JSN7ZGkZgMp3CdcqFXsGpLnmiEIxuSe0KVmgw/XSt+c5w+SqVZHwN1lENQNaRuFI0pe0GfEzqmBBZJAh28Yl5xMrSjg0hbUwdbzQ3AAAABQ0lEQVQoz2NkwAsYqSnNCAa/cEizQ6QZP2GV5ofKMn7/hEVaAqoVpOoeprQyUPgW0AyQsmsY0tpA0QeflO4p8QIZ5zCkja9xcj82YWQ8Zc7IePIfhrQV1F3Xtd4LMe7BkHZlhIP/23+jS2urQqTeigCJZRgeiwZLHrLf7AekZmNIp+13AoofdAApmogZagVg3UdtGE9arISFCpJ0JUh2pwcj44ZAxjoM3c2L4hnPmC4x0v7E/4OzHF1aKeOylMhXZs43okAzCjAilO93iLBQNzfQhhtbS3IwpJnkcs9dyOotYWS8YFj2EUN6FtDMZAbm2Y/l9ty/9wJDumh+/+NahoWMX3hjsaW1JYwMn/kYv7KxMYZjk151W+25FNDLa5diTanaLfeUz5gyltz+jz0hS3BPYGTM4byGK50rTYn4/J+6mQgAotVYH1P7msgAAAAASUVORK5CYII=') no-repeat center;
+    margin-top: -2px;
+    margin-right: -10px;
+    margin-left: 2px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAACJVBMVEUAAADMzMzk5OTY2Njd3d3///+AgIDGxsbS0tLS0tLR0dHR0dHR0dHW1tbj4+Ph4eHS0tLQ0NDPz8/R0dHPz8/Pz8/S0tLT09P////T09PR0dHPz8/R0dHS0tLV1dXQ0NDQ0NDV1dX////T09PQ0NDQ0NDR0dHV1dXQ0NDR0dHr6+v////V1dXR0dHS0tLa2trOzs7R0dHi4uLY2NjPz8/V1dX////k5OTR0dHQ0NDj4+PS0tLOzs7h4eHU1NTPz8/R0dHb29vZ2dnR0dHb29vW1tbPz8/Q0NDU1NTOzs7Ozs7Pz8/W1tba2trT09PPz8/V1dXPz8/R0dHQ0NDPz8/W1tbU1NTT09PPz8/Q0NDX19ff39/S0tLQ0NDQ0NDPz8/Q0NDW1tbQ0NDQ0NDPz8/////c3NzR0dHQ0NDPz8/d3d3R0dHR0dHX19fOzs7T09PV1dXPz8/Q0NDOzs7Ozs7V1dXQ0NDR0dHOzs7Q0NDPz8/T09POzs7Pz8/T09PQ0NDQ0NDPz8/b29vZ2dnS0tLR0dHR0dHR0dHNzc3q6urS0tLT09PQ0NDQ0NDQ0NDQ0NDW1tbS0tLPz8/R0dHe3t6qqqrPz8/Pz8/R0dHS0tLU1NTPz8/R0dHZ2dnOzs7T09PPz8/U1NTPz8/X19fT09PPz8+/v7/R0dHS0tL////c3NzQ0NDOzs7R0dHS0tLR0dHPz8/Q0NDQ0NDR0dHPz8/U1NTb29u70Y0bAAAAt3RSTlMABRMaDwUCCTNhdXRTJQkRZ6yjl6qugUADRpqLVDk9nYkxASOHlDdan2kNBEihaymIjxoNIB4GHH+NEnyTIk2GYysobw4slXxftaFwUCJRm1SeeZGWODtMdqItGHaXbKBhSl2SjgckemKxJYCqP7JSN7ZGkZgMp3CdcqFXsGpLnmiEIxuSe0KVmgw/XSt+c5w+SqVZHwN1lENQNaRuFI0pe0GfEzqmBBZJAh28Yl5xMrSjg0hbUwdbzQ3AAAABQ0lEQVQoz2NkwAsYqSnNCAa/cEizQ6QZP2GV5ofKMn7/hEVaAqoVpOoeprQyUPgW0AyQsmsY0tpA0QeflO4p8QIZ5zCkja9xcj82YWQ8Zc7IePIfhrQV1F3Xtd4LMe7BkHZlhIP/23+jS2urQqTeigCJZRgeiwZLHrLf7AekZmNIp+13AoofdAApmogZagVg3UdtGE9arISFCpJ0JUh2pwcj44ZAxjoM3c2L4hnPmC4x0v7E/4OzHF1aKeOylMhXZs43okAzCjAilO93iLBQNzfQhhtbS3IwpJnkcs9dyOotYWS8YFj2EUN6FtDMZAbm2Y/l9ty/9wJDumh+/+NahoWMX3hjsaW1JYwMn/kYv7KxMYZjk151W+25FNDLa5diTanaLfeUz5gyltz+jz0hS3BPYGTM4byGK50rTYn4/J+6mQgAotVYH1P7msgAAAAASUVORK5CYII=") no-repeat center;
     opacity: 0.6;
     transition: opacity 0.1s;
   }
@@ -264,7 +273,7 @@
   }
   .membersGroup-v9BXpm {
     height: auto;
-    padding: 25px 25px 0;
+    padding: 17px 17px 0;
     text-align: center;
     white-space: normal;
   }
@@ -356,7 +365,7 @@
     background-color: darkgreen !important;
   }
   #app-mount #friends .friends-action-ignore:hover {
-    background-color: #f04747 !important;
+    background-color: #F04747 !important;
   }
 
   /** ---- Avatars and Statuses ---- **/
@@ -387,6 +396,8 @@
   .app-19_DXt .channel:hover .status-online,
   .app-19_DXt .channel.selected .status-online,
   .app-19_DXt .statusOnline-1FlpW_,
+  .avatarStatus-3jMZl_.statusOnline-1FlpW_,
+  .listAvatar-1NlAhb .statusOnline-1FlpW_,
   .membersWrap-2h-GB4 .statusOnline-1FlpW_,
   .membersWrap-2h-GB4 .member-3W1lQa:hover .content-OzHfo4 .statusOnline-1FlpW_,
   .membersWrap-2h-GB4 .member-3W1lQa.popout-open .content-OzHfo4 .statusOnline-1FlpW_,
@@ -397,6 +408,8 @@
   .app-19_DXt .channel:hover .status-idle,
   .app-19_DXt .channel.selected .status-idle,
   .app-19_DXt .statusIdle-1XoSCz,
+  .avatarStatus-3jMZl_.statusIdle-1XoSCz,
+  .listAvatar-1NlAhb .statusIdle-1XoSCz,
   .membersWrap-2h-GB4 .statusIdle-1XoSCz,
   .membersWrap-2h-GB4 .member-3W1lQa:hover .content-OzHfo4 .statusIdle-1XoSCz,
   .membersWrap-2h-GB4 .member-3W1lQa.popout-open .content-OzHfo4 .statusIdle-1XoSCz,
@@ -407,6 +420,8 @@
   .app-19_DXt .channel:hover .status-dnd,
   .app-19_DXt .channel.selected .status-dnd,
   .app-19_DXt .statusDnd-2DDKST,
+  .avatarStatus-3jMZl_.statusDnd-2DDKST,
+  .listAvatar-1NlAhb .statusDnd-2DDKST,
   .membersWrap-2h-GB4 .statusDnd-2DDKST,
   .membersWrap-2h-GB4 .member-3W1lQa:hover .content-OzHfo4 .statusDnd-2DDKST,
   .membersWrap-2h-GB4 .member-3W1lQa.popout-open .content-OzHfo4 .statusDnd-2DDKST,
@@ -419,8 +434,12 @@
   .app-19_DXt .channel:hover .status-offline,
   .app-19_DXt .channel.selected .status-invisible,
   .app-19_DXt .channel.selected .status-offline,
-  .titleText-3X-zRE .status-invisible,
-  .titleText-3X-zRE .status-offline,
+  .app-19_DXt .statusInvisible-23hZKw,
+  .app-19_DXt .statusOffline-3R-4Bv,
+  .listAvatar-1NlAhb .statusInvisible-23hZKw,
+  .listAvatar-1NlAhb .statusOffline-3R-4Bv,
+  .avatarStatus-3jMZl_.statusInvisible-23hZKw,
+  .avatarStatus-3jMZl_.statusOffline-3R-4Bv,
   .membersWrap-2h-GB4 .avatarOffline-3GF27z {
     border: 2px solid #747F8D;
     display: block;
@@ -454,12 +473,13 @@
     border: 3px solid #F04747;
     box-shadow: none;
   }
+  .statusInvisibleProfile-3iFEOq,
   .statusOfflineProfile-9tGGr- {
     border: 3px solid #747F8D;
     box-shadow: none;
   }
   .headerStreaming-2FjmGz .avatarStatus-3Ay1VL,
-  .topSectionStreaming-3rIBIm .avatarStatus-3Ay1VL {
+  .topSectionStreaming-1Tpf5X .avatarStatus-3Ay1VL {
     border: 3px solid #593695;
     box-shadow: none;
   }
@@ -499,7 +519,8 @@
     margin-right: 2px;
   }
   .avatar-uploader-inner {
-    background-color: #4f545c;
+    background-color: #4F545C;
+    border-color: darkgray;
   }
 
   /** ---- User Modals ---- **/
@@ -507,7 +528,7 @@
   .userPopout-3XzG_A .footer-1fjuF6,
   .modal-1UGdnR .body-3ND3kc,
   .topSectionPlaying-1J5E4n,
-  .topSectionStreaming-3rIBIm,
+  .topSectionStreaming-1Tpf5X,
   .topSectionSpotify-1lI0-P,
   .headerPlaying-j0WQBV,
   .headerStreaming-2FjmGz,
@@ -518,7 +539,7 @@
   }
   .userPopout-3XzG_A .quickMessage-2XpSaN {
     border-radius: 6px;
-    background-color: #2f3136;
+    background-color: #2F3136;
   }
   .headerTag-2pZJzA {
     height: auto;
@@ -530,7 +551,7 @@
     background-color: hsla(210, 40%, 13%, 0.7);
   }
   .headerStreaming-2FjmGz .activityUserPopout-2yItg2,
-  .topSectionStreaming-3rIBIm .activityProfile-2bJRaP {
+  .topSectionStreaming-1Tpf5X .activityProfile-2bJRaP {
     background-color: hsla(288, 40%, 13%, 0.7);
   }
   .headerXbox-3G-4PF .activityUserPopout-2yItg2,
@@ -570,7 +591,7 @@
   .create-guild-container.deprecated header,
   .create-guild-container.deprecated .action.create .action-header,
   .create-guild-container.deprecated .action.join .action-header,
-  .regionSelectModal-12e-57 .regionSelectModalHeader-33y0EU {
+  .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
     color: #AAA;
   }
   .create-guild-container.deprecated .create-or-join .action {
@@ -601,7 +622,7 @@
     padding-top: 0;
     left: 234px;
     top: 215px;
-    box-shadow: -2px 0px #222, 0px 2px #222, 2px 0px #222, 0px -2px #222;
+    box-shadow: -2px 0 #222, 0 3px #222, 2px 0 #222, 0 -2px #222;
   }
 
   /** ---- Region Modal ---- **/
@@ -615,15 +636,15 @@
   .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
     border-color: #111;
   }
-  .regionSelect-1lpijo:hover button {
-    background: rgba(25, 25, 25, 0.9);
-  }
-  .regionSelect-1lpijo .regionSelectInner-1cIYbU,
-  .regionSelect-1lpijo:hover .regionSelectInner-1cIYbU,
-  .regionSelect-1lpijo button,
-  .regionSelect-1lpijo:hover button {
+  .regionSelect-3lf4eE .regionSelectInner-24f4Ce,
+  .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce,
+  .regionSelect-3lf4eE button,
+  .regionSelect-3lf4eE:hover button {
     border-color: #111;
     color: lightgray;
+  }
+  .regionSelect-3lf4eE:hover button {
+    background: rgba(25, 25, 25, 0.9);
   }
 
   /** ---- Upload Modal ---- **/
@@ -637,7 +658,7 @@
     border-color: gray;
   }
   .uploadModal-2ifh8j .inner-3nWsbo textarea {
-    background-color: #393b40;
+    background-color: #393B40;
     border-radius: 5px;
   }
   .uploadModal-2ifh8j .inner-zqa7da {
@@ -680,8 +701,8 @@
   .need-help-modal.deprecated .header .old-h1 {
     color: #AAA;
   }
-  .need-help-modal.deprecated .header input[type=text],
-  .need-help-modal.deprecated .header input[type=text]:focus {
+  .need-help-modal.deprecated .header input[type="text"],
+  .need-help-modal.deprecated .header input[type="text"]:focus {
     border-radius: 5px;
     background: #333;
     color: white;
@@ -787,10 +808,13 @@
   .authBox-hW6HRx .lookLink-9FtZy-:hover .contents-18-Yxp {
     background-image: none;
   }
+  button:first-child + button:last-child {
+    margin-right: 5px;
+  }
 
   /** ---- Settings ---- **/
   .layer-3QrUeG .user-settings-games .not-detected {
-    background-color: #2f3136;
+    background-color: #2F3136;
   }
   .layer-3QrUeG .user-settings-games .now-playing {
     background-color: hsla(210, 40%, 13%, 0.7);
@@ -799,7 +823,7 @@
     border-color: #111;
   }
   .layer-3QrUeG .card-3Qj_Yx a {
-    color: #00b0f4;
+    color: #00B0F4;
     font-weight: normal;
   }
   .layer-3QrUeG .itemSelected-1qLhcL,
@@ -822,10 +846,10 @@
     background: #696969;
   }
   .layer-3QrUeG .denySelected-1mh2mZ {
-    background: #a52929;
-    border-color: #a52929;
+    background: #A52929;
+    border-color: #A52929;
   }
-  .checkbox input[type=checkbox]:checked + span::after {
+  .checkbox input[type="checkbox"]:checked + span::after {
     border-color: #CCC !important;
   }
   .checkbox-1ix_J3 .focused-1T2lU0 {
@@ -845,7 +869,7 @@
     background: darkgreen !important;
   }
   .bar-2Qqk5Z[style*="rgb(251, 184, 72)"] {
-    background: #4f545c !important
+    background: #4F545C !important
   }
   .item-PXvHYJ[style*="rgb(114, 137, 218)"].selected-3s45Ha {
     background: rgb(156, 135, 20) !important;
@@ -874,7 +898,7 @@
     border: 2px dotted #222;
   }
   .emojiPicker-3m1S-j .search-bar-inner {
-    background: #2d2b2b !important;
+    background: #2D2B2B !important;
     border: 1px solid rgba(40, 35, 35, 0.9) !important;
   }
   .emojiPicker-3m1S-j .search-bar-icon .icon.visible {
@@ -908,7 +932,7 @@
     border-color: transparent !important;
   }
   .emojiPicker-3m1S-j .no-search-results .sad-discord {
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHN0eWxlIGlkPSJkYXJrLW1vZGUtY3VzdG9tLXN0eWxlIi8+PGcgaWQ9IkdlbmVyYWwtUGxheWdyb3VuZCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48ZyBpZD0iZW1wdHktZW1vamktbGlnaHQiPjxnIGlkPSJQYWdlLTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgNSkiPjxwYXRoIGQ9Ik04MCA0MGE0MCA0MCAwIDEgMS04MCAwIDQwIDQwIDAgMCAxIDgwIDAiIGlkPSJGaWxsLTEiIGZpbGw9IiMzMzMiLz48cGF0aCBkPSJNODAgNDBhNDAgNDAgMCAxIDEtODAgMCA0MCA0MCAwIDAgMSA4MCAweiIgaWQ9IlN0cm9rZS0zIiBzdHJva2U9IiM5OUFBQjUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTIyIDQxLjY0YTUgNSAwIDEgMS0xMCAwIDUgNSAwIDAgMSAxMCAwIiBpZD0iRmlsbC01IiBmaWxsPSIjOTlBQUI1Ii8+PHBhdGggZD0iTTY4IDQxLjY0YTUgNSAwIDEgMS0xMCAwIDUgNSAwIDAgMSAxMCAwIiBpZD0iRmlsbC03IiBmaWxsPSIjOTlBQUI1Ii8+PHBhdGggZD0iTTUwIDU5LjQ4YTE2IDE2IDAgMCAwLTIwIDAiIGlkPSJTdHJva2UtOSIgc3Ryb2tlPSIjOTlBQUI1IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik04MS4yIDY2Ljk3YTEwLjMzIDEwLjMzIDAgMSAxLTIwLjY2IDBjMC01LjcgMTAuMzMtMTguMzMgMTAuMzMtMTguMzNzMTAuMzQgMTIuNjMgMTAuMzQgMTguMzMiIGlkPSJGaWxsLTExIiBmaWxsPSIjMzMzIi8+PHBhdGggZD0iTTgxLjIgNjYuOTdhMTAuMzMgMTAuMzMgMCAxIDEtMjAuNjYgMGMwLTUuNyAxMC4zMy0xOC4zMyAxMC4zMy0xOC4zM3MxMC4zNCAxMi42MyAxMC4zNCAxOC4zM3oiIGlkPSJTdHJva2UtMTMiIHN0cm9rZT0iIzk5QUFCNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L2c+PC9nPjwvZz48L3N2Zz4=') !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAiIGhlaWdodD0iOTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHN0eWxlIGlkPSJkYXJrLW1vZGUtY3VzdG9tLXN0eWxlIi8+PGcgaWQ9IkdlbmVyYWwtUGxheWdyb3VuZCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48ZyBpZD0iZW1wdHktZW1vamktbGlnaHQiPjxnIGlkPSJQYWdlLTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgNSkiPjxwYXRoIGQ9Ik04MCA0MGE0MCA0MCAwIDEgMS04MCAwIDQwIDQwIDAgMCAxIDgwIDAiIGlkPSJGaWxsLTEiIGZpbGw9IiMzMzMiLz48cGF0aCBkPSJNODAgNDBhNDAgNDAgMCAxIDEtODAgMCA0MCA0MCAwIDAgMSA4MCAweiIgaWQ9IlN0cm9rZS0zIiBzdHJva2U9IiM5OUFBQjUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0iTTIyIDQxLjY0YTUgNSAwIDEgMS0xMCAwIDUgNSAwIDAgMSAxMCAwIiBpZD0iRmlsbC01IiBmaWxsPSIjOTlBQUI1Ii8+PHBhdGggZD0iTTY4IDQxLjY0YTUgNSAwIDEgMS0xMCAwIDUgNSAwIDAgMSAxMCAwIiBpZD0iRmlsbC03IiBmaWxsPSIjOTlBQUI1Ii8+PHBhdGggZD0iTTUwIDU5LjQ4YTE2IDE2IDAgMCAwLTIwIDAiIGlkPSJTdHJva2UtOSIgc3Ryb2tlPSIjOTlBQUI1IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik04MS4yIDY2Ljk3YTEwLjMzIDEwLjMzIDAgMSAxLTIwLjY2IDBjMC01LjcgMTAuMzMtMTguMzMgMTAuMzMtMTguMzNzMTAuMzQgMTIuNjMgMTAuMzQgMTguMzMiIGlkPSJGaWxsLTExIiBmaWxsPSIjMzMzIi8+PHBhdGggZD0iTTgxLjIgNjYuOTdhMTAuMzMgMTAuMzMgMCAxIDEtMjAuNjYgMGMwLTUuNyAxMC4zMy0xOC4zMyAxMC4zMy0xOC4zM3MxMC4zNCAxMi42MyAxMC4zNCAxOC4zM3oiIGlkPSJTdHJva2UtMTMiIHN0cm9rZT0iIzk5QUFCNSIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L2c+PC9nPjwvZz48L3N2Zz4=") !important;
   }
   .premiumPromo-yVfLiA {
     background: #333;
@@ -935,10 +959,10 @@
   .guildDetail-1nRKNE span {
     font-size: 105%;
     margin-top: 3px;
-    color: #747f8d;
+    color: #747F8D;
   }
   .guildDetail-1nRKNE .onlineCount-w6_WmG {
-    color: #43b581;
+    color: #43B581;
   }
   .wrapper-35wsBm .guildIcon-lQ0uiM {
     background-color: rgba(30, 30, 30, 0.9);
@@ -953,7 +977,7 @@
     height: calc(100% + 15px);
     animation: none;
     -webkit-animation: none;
-    background: url("https://observeroftime.github.io/DiscordThemes/NewNihilism/res/loading.svg") center/contain no-repeat #2f3136 !important;
+    background: url("https://observeroftime.github.io/DiscordThemes/NewNihilism/res/loading.svg") center/contain no-repeat #2F3136 !important;
   }
   .membersWrap-2h-GB4 .placeholder-oNR4zO > div,
   .memberGroupsPlaceholder-3mwPub {
@@ -1036,6 +1060,9 @@
     padding: 1px 2.5px;
     line-height: 15px;
   }
+  .guildAvatarWithoutIcon-1sTmE_ {
+    background: rgba(30, 30, 30, 0.9);
+  }
   .ghostPill-2-KUPM,
   .round-2jCFai {
     border-radius: 4px;
@@ -1063,7 +1090,7 @@
     border-radius: 0 !important;
   }
   .no-search-results .sad-discord {
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTciIGhlaWdodD0iNzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHN0eWxlIGlkPSJkYXJrLW1vZGUtY3VzdG9tLXN0eWxlIi8+PGRlZnM+PHBhdGggaWQ9InBhdGgtMSIgZD0iTTAgLjM0aDk3VjcwSDAiLz48L2RlZnM+PGcgaWQ9IkdlbmVyYWwtUGxheWdyb3VuZCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48ZyBpZD0iUGFnZS0xIj48ZyBpZD0iR3JvdXAtMyI+PHBhdGggZD0iTTYzLjggNDkuODJjLTQuNjUgMC04LjQxLTQuMDgtOC40MS05LjEyIDAtMi4zNS44Mi00LjUgMi4xNi02LjExbDE0LjQgOC4zM2MtLjkyIDMuOTctNC4yMiA2LjktOC4xNiA2LjltLTMwLjU4IDBjLTMuOTQgMC03LjI0LTIuOTMtOC4xNS02LjlsMTQuMzktOC4zM2E5LjU0IDkuNTQgMCAwIDEgMi4xNiA2LjExYzAgNS4wNC0zLjc2IDkuMTItOC40IDkuMTJNODQuODcgOS4yQzc1LjI0IDEuMTIgNjIgLjM0IDYyIC4zNGwtMS4xIDEuMzlhNTcuOTggNTcuOTggMCAwIDEgMjEuNSAxMC41QzY2LjI0IDIuOTkgNDguNSA0LjIxIDQ4LjUgNC4yMVMzMC43NSAzIDE0LjYgMTIuMjNjMCAwIDkuMS03LjU5IDIxLjUtMTAuNUwzNSAuMzRzLTEzLjI0Ljc4LTIyLjg3IDguODVjMCAwLTEyLjQxIDIxLjktMTIuMTMgNDguNjUgMCAwIDcgMTEuODQgMjUuMzUgMTIuMTZsNS44LTcuMTlzLTQuOS0uMzItMTAuMi4yOGMwIDAgOC4wNi0zLjMyIDI3LjU1LTMuMzIgMTkuNSAwIDI3LjU1IDMuMzIgMjcuNTUgMy4zMi01LjMtLjYtMTAuMi0uMjgtMTAuMi0uMjhsNS44IDcuMTlDOTAgNjkuNjggOTYuOTkgNTcuODQgOTYuOTkgNTcuODRjLjMtMjYuNzUtMTIuMTItNDguNjUtMTIuMTItNDguNjUiIGlkPSJGaWxsLTEiIGZpbGw9IiM5OUFBQjUiLz48L2c+PHBhdGggZD0iTTYwIDY3Yy0yLjc2IDAtNS0yLjI2LTUtNS4wNVM2MCA1MSA2MCA1MXM1IDguMTYgNSAxMC45NUE1LjAzIDUuMDMgMCAwIDEgNjAgNjd6IiBpZD0iRmlsbC00IiBmaWxsPSIjOTlBQUI1Ii8+PHBhdGggZD0iTTY1IDYxLjk1YzAgMi43OS0yLjI0IDUuMDUtNSA1LjA1cy01LTIuMjYtNS01LjA1UzYwIDUxIDYwIDUxczUgOC4xNiA1IDEwLjk1eiIgaWQ9IlN0cm9rZS02IiBzdHJva2U9IiMyMjIiLz48L2c+PC9nPjwvc3ZnPg==') !important;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTciIGhlaWdodD0iNzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHN0eWxlIGlkPSJkYXJrLW1vZGUtY3VzdG9tLXN0eWxlIi8+PGRlZnM+PHBhdGggaWQ9InBhdGgtMSIgZD0iTTAgLjM0aDk3VjcwSDAiLz48L2RlZnM+PGcgaWQ9IkdlbmVyYWwtUGxheWdyb3VuZCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48ZyBpZD0iUGFnZS0xIj48ZyBpZD0iR3JvdXAtMyI+PHBhdGggZD0iTTYzLjggNDkuODJjLTQuNjUgMC04LjQxLTQuMDgtOC40MS05LjEyIDAtMi4zNS44Mi00LjUgMi4xNi02LjExbDE0LjQgOC4zM2MtLjkyIDMuOTctNC4yMiA2LjktOC4xNiA2LjltLTMwLjU4IDBjLTMuOTQgMC03LjI0LTIuOTMtOC4xNS02LjlsMTQuMzktOC4zM2E5LjU0IDkuNTQgMCAwIDEgMi4xNiA2LjExYzAgNS4wNC0zLjc2IDkuMTItOC40IDkuMTJNODQuODcgOS4yQzc1LjI0IDEuMTIgNjIgLjM0IDYyIC4zNGwtMS4xIDEuMzlhNTcuOTggNTcuOTggMCAwIDEgMjEuNSAxMC41QzY2LjI0IDIuOTkgNDguNSA0LjIxIDQ4LjUgNC4yMVMzMC43NSAzIDE0LjYgMTIuMjNjMCAwIDkuMS03LjU5IDIxLjUtMTAuNUwzNSAuMzRzLTEzLjI0Ljc4LTIyLjg3IDguODVjMCAwLTEyLjQxIDIxLjktMTIuMTMgNDguNjUgMCAwIDcgMTEuODQgMjUuMzUgMTIuMTZsNS44LTcuMTlzLTQuOS0uMzItMTAuMi4yOGMwIDAgOC4wNi0zLjMyIDI3LjU1LTMuMzIgMTkuNSAwIDI3LjU1IDMuMzIgMjcuNTUgMy4zMi01LjMtLjYtMTAuMi0uMjgtMTAuMi0uMjhsNS44IDcuMTlDOTAgNjkuNjggOTYuOTkgNTcuODQgOTYuOTkgNTcuODRjLjMtMjYuNzUtMTIuMTItNDguNjUtMTIuMTItNDguNjUiIGlkPSJGaWxsLTEiIGZpbGw9IiM5OUFBQjUiLz48L2c+PHBhdGggZD0iTTYwIDY3Yy0yLjc2IDAtNS0yLjI2LTUtNS4wNVM2MCA1MSA2MCA1MXM1IDguMTYgNSAxMC45NUE1LjAzIDUuMDMgMCAwIDEgNjAgNjd6IiBpZD0iRmlsbC00IiBmaWxsPSIjOTlBQUI1Ii8+PHBhdGggZD0iTTY1IDYxLjk1YzAgMi43OS0yLjI0IDUuMDUtNSA1LjA1cy01LTIuMjYtNS01LjA1UzYwIDUxIDYwIDUxczUgOC4xNiA1IDEwLjk1eiIgaWQ9IlN0cm9rZS02IiBzdHJva2U9IiMyMjIiLz48L2c+PC9nPjwvc3ZnPg==") !important;
   }
   .invite-18yqGF .helpIcon-2EyVTp {
     background-color: slategray;

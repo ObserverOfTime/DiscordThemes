@@ -29,7 +29,7 @@ Themes for the desktop client, meant to complement other themes. Details in the 
 
 - [Windows](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBD.exe)
 - [Linux](https://github.com/bb010g/betterdiscordctl#betterdiscordctl)
-- [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BetterDiscordMacInstaller.zip)
+- [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0i/BandagedBDInstaller_Mac.zip)
 
 ### Web
 
