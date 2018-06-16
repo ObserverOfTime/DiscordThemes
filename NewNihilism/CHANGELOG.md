@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.3
+- Fix server icons
+
 ## v1.3.2
 - Minor fixes
 
