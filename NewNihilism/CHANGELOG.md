@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.5
+- Add status popouts on user pfp
+
 ## v1.3.4
 - Fix statuses
 

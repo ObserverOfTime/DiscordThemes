@@ -1,7 +1,7 @@
 /** ==UserStyle==
  *  @name        New Nihilism
  *  @author      ObserverOfTime <chronobserver@disroot.org>
- *  @version     1.3.4
+ *  @version     1.3.5
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
  *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
@@ -85,6 +85,8 @@
   .base-3dtUhz {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    overflow: visible;
+    width: 190px;
   }
   .channels-Ie2l6A {
     width: 190px;
@@ -165,6 +167,49 @@
   }
   .container-3nXdBP section::after {
     border-top-color: #333;
+  }
+  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE::after {
+    content: "";
+    font-size: 15px;
+    background: #555;
+    padding: 5px 7px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: -35px;
+  }
+  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE::before {
+    content: "";
+    background: #555;
+    padding: 7px;
+    position: absolute;
+    top: -20px;
+    transform: translateX(55%) rotate(45deg);
+    -webkit-transform: translateX(55%) rotate(45deg);
+  }
+  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.online-2S838R::after {
+    content: "Online";
+    transform: translateX(-24%);
+    -webkit-transform: translateX(-24%);
+  }
+  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.idle-3DEnRT::after {
+    content: "Idle";
+    transform: translateX(-13%);
+    -webkit-transform: translateX(-13%);
+  }
+  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.dnd-1_xrcq::after {
+    content: "Do Not Disturb";
+    transform: translate(-25%, -35%);
+    -webkit-transform: translate(-25%, -35%);
+  }
+  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.invisible-1kp8Z0::after {
+    content: "Invisible";
+    transform: translateX(-27%);
+    -webkit-transform: translateX(-27%);
+  }
+  .container-2Thooq .popout-open + .status-oxiHuE::after,
+  .container-2Thooq .popout-open + .status-oxiHuE::before {
+    display: none;
   }
 
   /** ---- Chat Area ---- **/
@@ -455,7 +500,7 @@
   .invisible-1kp8Z0 .typingSpinnerItem-35chrT {
     border-color: #747F8D;
   }
-  .unknown-Ms2zdV {
+  .unknown-Ms2zdV .typingSpinnerItem-35chrT {
     border-color: rgba(116, 127, 141, 0.5);
   }
   .streaming-2_dnHe .typingSpinnerItem-35chrT {
