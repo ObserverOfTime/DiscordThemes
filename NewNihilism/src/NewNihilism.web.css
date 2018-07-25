@@ -206,20 +206,25 @@
   .chat .new-messages-bar:hover {
     background: #333;
   }
-  .message-group {
-    padding: 15px 0;
+  .containerCozy-jafyvG {
+    padding: 17px 0;
+    margin-bottom: 0;
   }
-  .message-group .avatar-large {
+  .containerCompact-3V0ioj {
+    padding: 10px 0;
+  }
+  .container-1YxwTf .avatar-large {
     margin-left: 1.5px;
   }
-  .message-group .comment .markup code.inline {
+  .container-1YxwTf .markup-2BOw-j code.inline {
     padding-top: 0.1em;
+    padding-bottom: 0.1em;
   }
-  .message-group.compact .comment {
-    margin-left: -30px;
-  }
-  .message-group.compact .system-message {
+  .containerCompact-3V0ioj .system-message {
     margin-left: 3rem;
+  }
+  .messageCozy-2JPAPA {
+    margin-bottom: -0.2em;
   }
   .message-group-blocked {
     display: none;
@@ -242,7 +247,7 @@
   .attachment-33OFj0 .progressBar-3u8FBM {
     background: darkgreen !important;
   }
-  .message-group .emoji {
+  .markup-2BOw-j .emoji {
     width: auto;
     height: auto;
     max-width: 45px !important;
