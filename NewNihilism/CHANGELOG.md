@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.8
+- Minor fixes
+
 ## v1.3.7
 - Update for new classes
 

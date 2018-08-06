@@ -12,6 +12,9 @@
   width: 35px;
   height: 35px;
 }
+.guild-1EfMGQ .avatar-small {
+  background-size: 35px 35px;
+}
 .guilds-1q_RqH .guildInner-3DSoA4 {
   background-color: hsla(223, 5%, 3%, 0.4) !important;
 }
@@ -194,13 +197,6 @@
 .newMessagesBar-mujexs:hover {
   background: #333;
 }
-.containerCozy-jafyvG {
-  padding: 17px 0;
-  margin-bottom: 0;
-}
-.containerCompact-3V0ioj {
-  padding: 10px 0;
-}
 .container-1YxwTf .avatar-large {
   margin-left: 1.5px;
 }
@@ -210,9 +206,6 @@
 }
 .containerCompact-3V0ioj .system-message {
   margin-left: 3rem;
-}
-.messageCozy-2JPAPA {
-  margin-bottom: -0.2em;
 }
 .messageGroupBlocked-3wrQQX {
   display: none;
