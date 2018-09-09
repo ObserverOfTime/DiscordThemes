@@ -1,7 +1,7 @@
 /** ==UserStyle==
  *  @name        New Nihilism
  *  @author      ObserverOfTime <chronobserver@disroot.org>
- *  @version     1.3.8
+ *  @version     1.3.9
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
  *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
@@ -22,6 +22,7 @@
     padding: 20px;
   }
   .guilds-1q_RqH .guildInner-3DSoA4,
+  .guilds-1q_RqH .guildsError-3cFMtY,
   .guilds-1q_RqH .guild-1EfMGQ,
   .guilds-1q_RqH .guild-1EfMGQ:first-child a {
     width: 35px;
@@ -52,8 +53,8 @@
     font-size: 35px;
     top: -6px;
   }
-  .guilds-1q_RqH .guildsError-3cFMLY {
-    line-height: 32px;
+  .guilds-1q_RqH .guildsError-3cFMtY {
+    line-height: 33px;
     padding-right: 1px;
   }
   .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
@@ -248,7 +249,7 @@
     height: auto;
     max-width: 45px !important;
   }
-  .reaction .emoji {
+  .reaction-1ELvT8 .emoji {
     width: 35px;
     height: auto;
     margin: 2px 0;
@@ -416,7 +417,7 @@
   .image-33JSyf,
   .guildInner-3DSoA4,
   .guildsAdd-21_IdK,
-  .guildsError-3cFMLY,
+  .guildsError-3cFMtY,
   .guildPlaceholder-1ioaid,
   .embedAuthorIcon--1zR3L,
   .displayAvatar-1wWlVM,
@@ -754,6 +755,7 @@
     border-radius: 20%;
   }
   .sizeDefault-2YlOZr,
+  .closeButton-1tv5uR,
   .ui-standard-sidebar-view .btn-close {
     border-radius: 10px !important;
   }
