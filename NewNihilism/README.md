@@ -2,8 +2,8 @@
 
 **A dark and compact theme, designed for use with Discord's dark theme.**
 
-[![Desktop](https://img.shields.io/badge/Desktop-v1.3.9-yellowgreen.svg)](src/NewNihilism.css)
-[![Web](https://img.shields.io/badge/Web-v1.3.9-brightgreen.svg)](src/NewNihilism.web.css)
+[![Desktop](https://img.shields.io/badge/Desktop-v1.3.10-yellowgreen.svg)](src/NewNihilism.css)
+[![Web](https://img.shields.io/badge/Web-v1.3.10-brightgreen.svg)](src/NewNihilism.web.css)
 
 ## Features
 

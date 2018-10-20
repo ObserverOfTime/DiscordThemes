@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.3.10
+- Update for new classes
+
 ## v1.3.9
 - Update for new classes
 

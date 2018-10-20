@@ -1,7 +1,7 @@
 /** ==UserStyle==
  *  @name        New Nihilism
  *  @author      ObserverOfTime <chronobserver@disroot.org>
- *  @version     1.3.9
+ *  @version     1.3.10
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
  *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
@@ -756,7 +756,7 @@
   }
   .sizeDefault-2YlOZr,
   .closeButton-1tv5uR,
-  .ui-standard-sidebar-view .btn-close {
+  .standardSidebarView-3F1I7i .btn-close {
     border-radius: 10px !important;
   }
   .form.deprecated .btn-default {
@@ -1071,7 +1071,7 @@
   .container-3nXdBP hr {
     display: none;
   }
-  .sidebar .side-8zPYf6 {
+  .sidebar-CFHs9e .side-8zPYf6 {
     text-align: center;
   }
   .notice-2FJMB4 {
