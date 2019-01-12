@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.4.0
+- Fix outdated elements
+
 ## v1.3.10
 - Update for new classes
 
