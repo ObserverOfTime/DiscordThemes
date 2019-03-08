@@ -2,8 +2,8 @@
 
 **A dark and compact theme, designed for use with Discord's dark theme.**
 
-[![Desktop](https://img.shields.io/badge/Desktop-v1.4.1-yellowgreen.svg)](src/NewNihilism.css)
-[![Web](https://img.shields.io/badge/Web-v1.4.1-brightgreen.svg)](src/NewNihilism.web.css)
+[![Desktop](https://img.shields.io/badge/Desktop-v1.4.2-yellowgreen.svg)](src/NewNihilism.css)
+[![Web](https://img.shields.io/badge/Web-v1.4.2-brightgreen.svg)](src/NewNihilism.web.css)
 
 ## Features
 
@@ -12,7 +12,6 @@
 - Status borders
 - Bigger emoji
 - Hide blocked messages
-- Hide title bar _(windows)_
 - Hide apps button _(web)_
 - Hide unnecessary scrollbars
 - No light elements

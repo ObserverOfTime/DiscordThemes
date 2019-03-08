@@ -1,5 +1,8 @@
 # Changelog
 
+## Version 1.4.2
+- Update guild classes
+
 ## v1.4.1
 - More class updates
 

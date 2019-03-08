@@ -1,59 +1,67 @@
-/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.4.1","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
+/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.4.2","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
 
 /** ---- Server Area ---- **/
-.guilds-1q_RqH {
-  border-right: none;
-  position: relative;
-  margin-top: -10px;
-  margin-left: -4px;
-  padding: 20px;
+.wrapper-1Rf91z {
+  width: 55px;
 }
-.guilds-1q_RqH .guildInner-3DSoA4,
-.guilds-1q_RqH .guildsError-3cFMtY,
-.guilds-1q_RqH .guild-1EfMGQ,
-.guilds-1q_RqH .guild-1EfMGQ:first-child a {
+.wrapper-1Rf91z .wrapper-2lTRaf {
+  border-radius: 20% !important;
+  background-color: #18191C !important;
+}
+.container-2td-dC,
+.container-1ETFDs,
+.homeButton-2Cw51C,
+.guildIcon-VlWW86,
+.guildsError-b7zR5H,
+.circleIconButton-jET_ig,
+.dragPlaceholder-D9-haY {
   width: 35px;
   height: 35px;
 }
-.guild-1EfMGQ .avatar-small {
-  background-size: 35px 35px;
+.container-1aNBdK,
+.container-1aNBdK .avatar-3f3jk4 {
+  width: 35px;
+  height: 35px !important;
 }
-.guilds-1q_RqH .guildInner-3DSoA4 {
-  background-color: hsla(223, 5%, 3%, 0.4) !important;
+.container-1aNBdK {
+  padding-bottom: 10px;
 }
-.guilds-1q_RqH .guildIcon-CT-ZDq {
+.container-1aNBdK .badge-2_fwUZ {
+  top: 20px;
+}
+.guildIcon-VlWW86 {
   background-size: 35px 35px;
   background-repeat: no-repeat;
-  height: 35px;
-  width: 35px;
 }
-.guilds-1q_RqH .noIcon-1a_FrS {
-  line-height: 35px;
-  font-size: 15px !important;
+.container-2td-dC .noIcon-1a_FrS {
+  line-height: 36px;
+  font-size: 17px !important;
 }
-.guilds-1q_RqH .friendsOnline-_wi_fM,
-.guilds-1q_RqH .guildSeparator-1X4GQ1 {
+.friendsOnline-2JkivW,
+.guildSeparator-3s64Iy {
   display: none;
 }
-.guilds-1q_RqH .guildsAddInner-1KMFy- {
+.circleIconButton-jET_ig {
   opacity: 0.5;
   font-size: 35px;
-  top: -6px;
+  padding: 0 0 8px 1px;
 }
-.guilds-1q_RqH .guildsError-3cFMtY {
+.circleIconButton-jET_ig svg[name="Search"] {
+  margin-top: 7px;
+}
+.guildsError-b7zR5H {
   line-height: 33px;
-  padding-right: 1px;
 }
-.guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
+.container-2td-dC.unread-2OHH1w::before {
   transition: 0.2s ease-in-out all;
-  left: -21px;
-  height: 15px;
+  left: -16px;
+  height: 17px;
   top: 42%;
   background: gray;
 }
-.guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq::before {
+.container-2td-dC.selected-nT-gM3::before {
   transition: 0.2s ease-in-out all;
-  left: -21px;
+  left: -16px;
   height: 30px;
   top: 62%;
   background: darkgray;
@@ -234,10 +242,10 @@
 .markup-2BOw-j .emoji {
   width: auto;
   height: auto;
-  max-width: 45px !important;
+  max-width: 35px !important;
 }
 .reaction-1ELvT8 .emoji {
-  width: 35px;
+  width: 25px;
   height: auto;
   margin: 2px 0;
 }
@@ -383,13 +391,16 @@ a[href="/channels/@me"] .wrapper-232cHJ {
 .avatarHint-1qgaV3,
 .avatarDefault-35WC3R,
 .avatarOffline-3GF27z,
+.avatarUploaderInner-3UNxY3,
 .status-oxiHuE,
 .image-33JSyf,
 .inner-1W0Bkn,
-.guildInner-3DSoA4,
-.guildsAdd-21_IdK,
-.guildsError-3cFMtY,
-.guildPlaceholder-1ioaid,
+.container-2td-dC,
+.circleIconButton-jET_ig,
+.homeButton-2Cw51C,
+.guildsError-b7zR5H,
+.dragfix-1wSxtO:active,
+.dragPlaceholder-D9-haY,
 .embedAuthorIcon--1zR3L,
 .displayAvatar-1wWlVM,
 .icon-3o6xvg {
@@ -701,7 +712,7 @@ a[href="/channels/@me"] .wrapper-232cHJ {
   border-color: silver;
   color: white !important;
 }
-.now-playing-add button {
+.nowPlayingAdd-1Kdmh_ button {
   margin-left: 5px;
 }
 .connectionDelete-2Odoln,
@@ -756,9 +767,11 @@ a[href="/channels/@me"] .wrapper-232cHJ {
 .authBox-hW6HRx .lookLink-9FtZy-:hover .contents-18-Yxp {
   background-image: none;
 }
-button:first-child + button:last-child,
 button:first-child + div:last-child button {
   margin-left: 5px;
+}
+button:first-child + button:last-child {
+  margin-right: 5px;
 }
 
 /** ---- Settings ---- **/
@@ -786,7 +799,7 @@ button:first-child + div:last-child button {
 }
 .valueChecked-m-4IJZ,
 .checked-3_4uQ9,
-.checkbox-inner input:checked + span,
+.checkboxElement-1qV33p:checked + span,
 .allowSelected-25S_i5 {
   background: darkgreen !important;
   border-color: darkgreen !important;
@@ -798,13 +811,13 @@ button:first-child + div:last-child button {
   background: #A52929;
   border-color: #A52929;
 }
-.checkbox input[type="checkbox"]:checked + span::after {
+input[type="checkbox"]:checked + span::after {
   border-color: #CCC !important;
 }
 .checkbox-1ix_J3 .focused-1T2lU0 {
   box-shadow: 0 0 0 2px hsla(220, 10%, 50%, 0.3) !important;
 }
-.wrapper-O5i5-0 .checkbox-inner span {
+.wrapper-O5i5-0 .checkboxInner-3yjcPe span {
   border-color: #111 !important;
 }
 .checked-3_4uQ9 polyline,
@@ -1480,5 +1493,8 @@ body #dl-log-button {
 div.ri-selected {
   background-color: darkslategray;
   padding: 5px;
+}
+.betterfriendcount-badge {
+  background-color: darkslategray;
 }
 
