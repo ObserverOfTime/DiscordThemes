@@ -4,6 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Twitter Link](https://img.shields.io/badge/Twitter-@chronobserver-696969.svg?logo=twitter)](https://twitter.com/chronobserver)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FObserverOfTime%2FDiscordThemes.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FObserverOfTime%2FDiscordThemes?ref=badge_shield)
 
 ## Themes
 
@@ -40,3 +41,7 @@ Themes for the desktop client, meant to complement other themes. Details in the 
 - [Opera](https://addons.opera.com/extensions/details/stylus)
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FObserverOfTime%2FDiscordThemes.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FObserverOfTime%2FDiscordThemes?ref=badge_large)
