@@ -1,6 +1,10 @@
 # Changelog
 
-## Version 1.4.2
+## v1.5.0
+- Update guild classes again
+- Improve look of new icons
+
+## v1.4.2
 - Update guild classes
 
 ## v1.4.1
