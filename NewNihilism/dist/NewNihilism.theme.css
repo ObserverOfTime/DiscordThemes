@@ -1,4 +1,4 @@
-/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.5.0","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
+/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.5.1","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
 
 /** ---- Server Area ---- **/
 .wrapper-1Rf91z {
@@ -451,6 +451,10 @@ a[href="/channels/@me"] .wrapper-232cHJ {
   border-width: 2px;
   top: -2px;
   left: -2px;
+}
+#app-mount .headerAvatar-zl6ti_ .status-oxiHuE {
+  top: 0;
+  left: 0;
 }
 #app-mount .statusProfile-3ynqtt {
   border-width: 3px;

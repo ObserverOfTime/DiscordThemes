@@ -1,7 +1,7 @@
 /*  ==UserStyle==
  *  @name        New Nihilism
  *  @author      ObserverOfTime <chronobserver@disroot.org>
- *  @version     1.5.0
+ *  @version     1.5.1
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
  *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
@@ -462,6 +462,10 @@
     border-width: 2px;
     top: -2px;
     left: -2px;
+  }
+  #app-mount .headerAvatar-zl6ti_ .status-oxiHuE {
+    top: 0;
+    left: 0;
   }
   #app-mount .statusProfile-3ynqtt {
     border-width: 3px;

@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.5.1
+- Fix activity status placement
+
 ## v1.5.0
 - Update guild classes again
 - Improve look of new icons
