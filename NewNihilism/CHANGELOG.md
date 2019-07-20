@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.6.0
+
+- Fix avatars and statuses
+
 ## v1.5.1
 - Fix activity status placement
 
@@ -119,4 +123,3 @@
 ## v1.0.0
 
 - New release
-

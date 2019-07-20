@@ -1,7 +1,7 @@
 /*  ==UserStyle==
  *  @name        New Nihilism
  *  @author      ObserverOfTime <chronobserver@disroot.org>
- *  @version     1.5.1
+ *  @version     1.6.0
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
  *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
@@ -43,9 +43,6 @@
     width: 35px;
     height: 35px;
     border-radius: 20%;
-  }
-  .svg-1X37T1 [mask] {
-    mask: unset;
   }
   .svg-1X37T1 .circleIconButton-jET_ig {
     width: 100%;
@@ -138,38 +135,12 @@
   .separator-2zcjq8 {
     display: none;
   }
-  .alt-3btY0e .item-1GzJrl {
-    text-align: center;
-    align-items: center;
-  }
-  .alt-3btY0e .item-1GzJrl .helper-2c73HK {
-    margin-left: 0;
-  }
-  .alt-3btY0e .status-3fQvEa {
-    display: none;
-  }
-  .alt-3btY0e .statusIconText-3b4TkH > div {
-    font-size: 18px;
-    margin-top: 4px;
-  }
-  .alt-3btY0e .online-2S838R + div {
-    color: #43B581;
-  }
-  .alt-3btY0e .idle-3DEnRT + div {
-    color: #FAA61A;
-  }
-  .alt-3btY0e .dnd-1_xrcq + div {
-    color: #F04747;
-  }
-  .alt-3btY0e .invisible-1kp8Z0 + div {
-    color: #747F8D;
-  }
   .unread-1Dp-OI + .content-20Aix8 .foreground-2W-aJk,
   .unread-1Dp-OI + .content-20Aix8 .background-2OVjk_ {
     fill: white;
     opacity: 1;
   }
-  .container-2Thooq {
+  .container-3baos1 {
     margin-left: -2px;
   }
   .container-3nXdBP header,
@@ -181,49 +152,6 @@
   }
   .container-3nXdBP section::after {
     border-top-color: #333;
-  }
-  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE::after {
-    content: "";
-    font-size: 15px;
-    background: #555;
-    padding: 5px 7px;
-    border-radius: 5px;
-    text-align: center;
-    position: absolute;
-    top: -35px;
-  }
-  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE::before {
-    content: "";
-    background: #555;
-    padding: 7px;
-    position: absolute;
-    top: -20px;
-    transform: translateX(55%) rotate(45deg);
-    -webkit-transform: translateX(55%) rotate(45deg);
-  }
-  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.online-2S838R::after {
-    content: "Online";
-    transform: translateX(-24%);
-    -webkit-transform: translateX(-24%);
-  }
-  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.idle-3DEnRT::after {
-    content: "Idle";
-    transform: translateX(-13%);
-    -webkit-transform: translateX(-13%);
-  }
-  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.dnd-1_xrcq::after {
-    content: "Do Not Disturb";
-    transform: translate(-25%, -35%);
-    -webkit-transform: translate(-25%, -35%);
-  }
-  .container-2Thooq .small-5Os1Bb:hover .status-oxiHuE.invisible-1kp8Z0::after {
-    content: "Invisible";
-    transform: translateX(-27%);
-    -webkit-transform: translateX(-27%);
-  }
-  .container-2Thooq .popout-open + .status-oxiHuE::after,
-  .container-2Thooq .popout-open + .status-oxiHuE::before {
-    display: none;
   }
 
   /** ---- Chat Area ---- **/
@@ -433,111 +361,159 @@
 
   /** ---- Avatars and Statuses ---- **/
   .avatar-small,
-  .avatarHint-1qgaV3,
-  .avatarDefault-35WC3R,
-  .avatarOffline-3GF27z,
+  .icon-3o6xvg,
   .avatarUploaderInner-3UNxY3,
-  .status-oxiHuE,
-  .image-33JSyf,
-  .inner-1W0Bkn,
-  .container-2td-dC,
-  .circleIconButton-jET_ig,
-  .homeButton-2Cw51C,
-  .guildsError-b7zR5H,
-  .dragfix-1wSxtO:active,
-  .dragPlaceholder-D9-haY,
-  .embedAuthorIcon--1zR3L,
-  .displayAvatar-1wWlVM,
-  .icon-3o6xvg {
-    border-radius: 20% !important;
+  .avatarHint-1qgaV3,
+  .status-1AY8sU,
+  .mask-1l8v16 img,
+  .avatar-VxgULZ::before {
+    border-radius: 20%;
   }
-  #app-mount .status-oxiHuE {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    pointer-events: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-style: solid;
-    border-width: 2px;
-    top: -2px;
-    left: -2px;
-  }
-  #app-mount .headerAvatar-zl6ti_ .status-oxiHuE {
-    top: 0;
-    left: 0;
-  }
-  #app-mount .statusProfile-3ynqtt {
-    border-width: 3px;
-    top: -3px;
-    left: -3px;
-  }
-  .online-2S838R {
-    border-color: #43B581 !important;
-  }
-  .idle-3DEnRT {
-    border-color: #FAA61A !important;
-  }
-  .dnd-1_xrcq {
-    border-color: #F04747 !important;
-  }
-  .invisible-1kp8Z0,
-  .offline-3qoTek {
-    border-color: #747F8D !important;
-  }
-  .unknown-Ms2zdV {
-    border-color: rgba(116, 127, 141, 0.5) !important;
-  }
-  .streaming-2_dnHe,
-  .headerStreaming-2FjmGz .status-oxiHuE,
-  .topSectionStreaming-1Tpf5X .status-oxiHuE {
-    border-color: #593695 !important;
-  }
-  .avatarOffline-3GF27z {
-    border: 2px solid #747F8D;
-  }
-  .status-oxiHuE.typing-1KJk_j {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  .status-oxiHuE.typing-1KJk_j .spinner-2enMB9{
-    margin: auto;
-  }
-  .typingSpinnerItem-35chrT {
-    background-color: #444;
-    border: 1px solid;
-  }
-  .online-2S838R .typingSpinnerItem-35chrT {
-    border-color: #43B581;
-  }
-  .idle-3DEnRT .typingSpinnerItem-35chrT {
-    border-color: #FAA61A;
-  }
-  .dnd-1_xrcq .typingSpinnerItem-35chrT {
-    border-color: #F04747;
-  }
-  .invisible-1kp8Z0 .typingSpinnerItem-35chrT {
-    border-color: #747F8D;
-  }
-  .unknown-Ms2zdV .typingSpinnerItem-35chrT {
-    border-color: rgba(116, 127, 141, 0.5);
-  }
-  .streaming-2_dnHe .typingSpinnerItem-35chrT {
-    border-color: #593695;
-  }
-  .avatarMasked-3y6o4j,
-  .maskProfile-1ObLFT,
-  .mask-3OgeRz {
-    -webkit-mask: none;
+  .mask-1l8v16 rect {
+    x: 1;
+    y: 1;
     mask: none;
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
   }
-  .avatar-1pYW6h {
-    margin-right: 2px;
+  [aria-label*="Online"] rect {
+    stroke: #43B581;
+  }
+  [aria-label*="Idle"] rect {
+    stroke: #FAA61A;
+  }
+  [aria-label*="Do Not Disturb"] rect {
+    stroke: #F04747;
+  }
+  [aria-label$="Offline"] rect {
+    stroke: #747F8D;
+  }
+  [aria-label$="Streaming"] rect {
+    stroke: #593695;
+  }
+  .member-3W1lQa rect,
+  .channel-2QD9_O rect {
+    rx: 4;
+    ry: 4;
+    width: 30px;
+    height: 30px;
+    stroke-width: 2;
+  }
+  .body-3ND3kc rect {
+    rx: 7;
+    ry: 7;
+    width: 38px;
+    height: 38px;
+    stroke-width: 2;
+  }
+  .header-2BwW8b rect,
+  .header-QKLPzZ rect {
+    rx: 16;
+    ry: 16;
+    height: 78px;
+    width: 78px;
+    stroke-width: 3;
+  }
+  .status-mz5rqq,
+  .avatar-SmRMf2 rect {
+    display: none;
+  }
+  .status-mz5rqq[aria-label="Online"] + .statusText-2F9zIF {
+    color: #43B581;
+  }
+  .status-mz5rqq[aria-label="Idle"] + .statusText-2F9zIF {
+    color: #FAA61A;
+  }
+  .status-mz5rqq[aria-label="Do Not Disturb"] + .statusText-2F9zIF {
+    color: #F04747;
+  }
+  .status-mz5rqq[aria-label="Streaming"] + .statusText-2F9zIF {
+    color: #593695;
+  }
+  .status-mz5rqq[aria-label="Offline"] + .statusText-2F9zIF {
+    color: #747F8D;
+  }
+  .container-3baos1 .avatar-SmRMf2:hover::after {
+    content: "";
+    font-size: 15px;
+    background: #555;
+    padding: 5px 7px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: -35px;
+  }
+  .container-3baos1 .avatar-SmRMf2:hover::before {
+    content: "";
+    background: #555;
+    padding: 7px;
+    position: absolute;
+    top: -20px;
+    transform: translateX(60%) rotate(45deg);
+    -webkit-transform: translateX(60%) rotate(45deg);
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Online"]:hover::after {
+    content: "Online";
+    transform: translateX(-24%);
+    -webkit-transform: translateX(-24%);
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Idle"]:hover::after {
+    content: "Idle";
+    transform: translateX(-13%);
+    -webkit-transform: translateX(-13%);
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Do Not Disturb"]:hover::after {
+    content: "Do Not Disturb";
+    transform: translate(-25%, -35%);
+    -webkit-transform: translate(-25%, -35%);
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Invisible"]:hover::after {
+    content: "Invisible";
+    transform: translateX(-27%);
+    -webkit-transform: translateX(-27%);
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Online"] .avatar-VxgULZ {
+    border: 2px solid #43B581;
+    box-sizing: border-box;
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Idle"] .avatar-VxgULZ {
+    border: 2px solid #FAA61A;
+    box-sizing: border-box;
+  }
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Do Not Disturb"] .avatar-VxgULZ {
+    border: 2px solid #F04747;
+    box-sizing: border-box;
+  }
+  .avatarOffline-3GF27z .avatar-VxgULZ,
+  .container-3baos1 .avatar-SmRMf2[aria-label$="Invisible"] .avatar-VxgULZ {
+    border: 2px solid #747F8D;
+    box-sizing: border-box;
   }
   .avatarUploaderInner-3UNxY3 {
     background-color: #4F545C;
     border-color: darkgray;
   }
+  .wrapper-3t9DeA[aria-label$="mobile"]::after {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="17 -17 50 50"><path fill="darkgray" d="M42,16c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C44,16.9,43.1,16,42,16z M48-8H36c-3.3,0-6,2.7-6,6 v20c0,3.3,2.7,6,6,6h12c3.3,0,6-2.7,6-6V-2C54-5.3,51.3-8,48-8z M52,19c0,1.7-1.3,3-3,3H35c-1.7,0-3-1.3-3-3V-3c0-1.7,1.3-3,3-3 h14c1.7,0,3,1.3,3,3V19z M45-4h-6c-0.6,0-1,0.4-1,1c0,0.6,0.4,1,1,1h6c0.6,0,1-0.4,1-1C46-3.6,45.6-4,45-4z"/></svg>');
+    content: "";
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    height: 22px;
+    width: 22px;
+  }
+  .header-QKLPzZ .wrapper-3t9DeA[aria-label$="mobile"]::after,
+  .header-2BwW8b .wrapper-3t9DeA[aria-label$="mobile"]::after {
+    left: 90%;
+    top: 65%;
+    height: 36px;
+    width: 36px;
+  }
+  foreignObject[mask] {
+    mask: unset;
+  }
+
 
   /** ---- User Modals ---- **/
   .userPopout-3XzG_A .body-3iLsc4,
@@ -550,6 +526,7 @@
   .headerStreaming-2FjmGz,
   .headerSpotify-zpWxgT,
   .headerXbox-3G-4PF,
+  .body-3ND3kc,
   #autocomplete-popout .autocomplete-scroller {
     background: #202225 !important;
   }
@@ -1132,8 +1109,7 @@
   /** ---- Web Stuff ---- **/
 
   /** ---- Hide Apps Button ---- **/
-  .downloadAppButton-3EFlA6 {
+  .listItem-2P_4kh:last-child {
     display: none;
   }
 }
-
