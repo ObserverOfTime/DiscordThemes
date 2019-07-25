@@ -1,7 +1,7 @@
 /*  ==UserStyle==
  *  @name        New Nihilism
  *  @author      ObserverOfTime <chronobserver@disroot.org>
- *  @version     1.6.0
+ *  @version     1.6.1
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
  *  @supportURL  https://github.com/ObserverOfTime/DiscordThemes/issues
@@ -28,6 +28,7 @@
     margin-top: 7px;
   }
   .guildsError-b7zR5H {
+    border-radius: 20%;
     line-height: 33px;
   }
   .guildsError-b7zR5H,
@@ -36,8 +37,13 @@
     height: 35px;
     margin-left: -18px;
   }
-  .listItem-2P_4kh + div:not(.listItem-2P_4kh) {
-    margin-bottom: -20px;
+  .expandedFolderBackground-2sPsd- {
+    left: 3px;
+    border-radius: 10px;
+  }
+  .expandedGuilds-1JMD4M {
+    height: 100% !important;
+    padding-bottom: 5px;
   }
   .svg-1X37T1 {
     width: 35px;
@@ -362,6 +368,7 @@
   /** ---- Avatars and Statuses ---- **/
   .avatar-small,
   .icon-3o6xvg,
+  .displayAvatar-1wWlVM,
   .avatarUploaderInner-3UNxY3,
   .avatarHint-1qgaV3,
   .status-1AY8sU,
@@ -386,11 +393,19 @@
   [aria-label*="Do Not Disturb"] rect {
     stroke: #F04747;
   }
+  [aria-label$="Invisible"] rect,
   [aria-label$="Offline"] rect {
     stroke: #747F8D;
   }
   [aria-label$="Streaming"] rect {
     stroke: #593695;
+  }
+  .channelTextArea-1LDbYG rect {
+    rx: 4;
+    ry: 4;
+    width: 22px;
+    height: 22px;
+    stroke-width: 2;
   }
   .member-3W1lQa rect,
   .channel-2QD9_O rect {
@@ -509,6 +524,9 @@
     top: 65%;
     height: 36px;
     width: 36px;
+  }
+  .cursorDefault-dsQJ1n rect {
+    stroke: none;
   }
   foreignObject[mask] {
     mask: unset;
