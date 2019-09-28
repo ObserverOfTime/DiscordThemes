@@ -38,5 +38,3 @@ Themes for the desktop client, meant to complement other themes. Details in the 
 - [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 - [Firefox](https://addons.mozilla.org/firefox/addon/styl-us)
 - [Opera](https://addons.opera.com/extensions/details/stylus)
-
-

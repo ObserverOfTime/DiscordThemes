@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 1.7.0
+- Fix broken chat area
+- Fix white server modal
+- Fix icons in non-100% zoom
+
+## Version 1.6.1
+- Fix native server folders
+
 ## v1.6.0
 
 - Fix avatars and statuses
