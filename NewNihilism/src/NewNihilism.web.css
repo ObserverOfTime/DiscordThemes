@@ -362,6 +362,7 @@
   #app-mount .displayAvatar-1wWlVM,
   .avatarUploaderInner-3UNxY3,
   .avatarHint-1qgaV3,
+  .embedAuthorIcon--1zR3L,
   .status-1AY8sU,
   .mask-1l8v16 img,
   .avatar-VxgULZ::before {
@@ -398,7 +399,7 @@
     height: 22px;
     stroke-width: 2;
   }
-  .member-3W1lQa rect,
+  .member-3-YXUe rect,
   .channel-2QD9_O rect {
     rx: 4;
     ry: 4;
@@ -413,8 +414,8 @@
     height: 38px;
     stroke-width: 2;
   }
-  .header-2BwW8b rect,
-  .header-QKLPzZ rect {
+  .header-2BwW8b svg:not(.gameIcon-_0rmMm) rect,
+  .header-QKLPzZ svg:not(.gameIcon-_0rmMm) rect {
     rx: 16;
     ry: 16;
     height: 78px;
@@ -439,48 +440,6 @@
   }
   .status-mz5rqq[aria-label="Offline"] + .statusText-2F9zIF {
     color: #747F8D;
-  }
-  .container-3baos1 .avatar-SmRMf2:hover::after {
-    content: "";
-    font-size: 15px;
-    background: #555;
-    color: #EEE;
-    opacity: 1;
-    padding: 5px 7px;
-    border-radius: 5px;
-    text-align: center;
-    position: absolute;
-    top: -35px;
-  }
-  .container-3baos1 .avatar-SmRMf2:hover::before {
-    content: "";
-    background: #555;
-    opacity: 1;
-    padding: 7px;
-    position: absolute;
-    top: -20px;
-    transform: translateX(60%) rotate(45deg);
-    -webkit-transform: translateX(60%) rotate(45deg);
-  }
-  .container-3baos1 .avatar-SmRMf2[aria-label$="Online"]:hover::after {
-    content: "Online";
-    transform: translateX(-24%);
-    -webkit-transform: translateX(-24%);
-  }
-  .container-3baos1 .avatar-SmRMf2[aria-label$="Idle"]:hover::after {
-    content: "Idle";
-    transform: translateX(-13%);
-    -webkit-transform: translateX(-13%);
-  }
-  .container-3baos1 .avatar-SmRMf2[aria-label$="Do Not Disturb"]:hover::after {
-    content: "Do Not Disturb";
-    transform: translate(-25%, -35%);
-    -webkit-transform: translate(-25%, -35%);
-  }
-  .container-3baos1 .avatar-SmRMf2[aria-label$="Invisible"]:hover::after {
-    content: "Invisible";
-    transform: translateX(-27%);
-    -webkit-transform: translateX(-27%);
   }
   .container-3baos1 .avatar-SmRMf2[aria-label$="Online"] .avatar-VxgULZ {
     border: 2px solid #43B581;

@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.7.1
+
+- Minor fixes
+
 ## Version 1.7.0
 - Fix broken chat area
 - Fix white server modal
