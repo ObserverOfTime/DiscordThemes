@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.8.0
+
+- Fix emoji picker colors
+- Hide gift & GIF icons
+
 ## Version 1.7.1
 
 - Minor fixes
