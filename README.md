@@ -17,9 +17,9 @@ A dark and compact theme, designed for use with Discord's dark theme.
 A theme based on the Devilman mythos.
 --->
 
-### [Mini Themes](MiniThemes)
+### [BetterEmbeds](BetterEmbeds)
 
-Themes for the desktop client, meant to complement other themes. Details in the link.
+Make Embeds Great Again.
 
 ## Requirements
 
