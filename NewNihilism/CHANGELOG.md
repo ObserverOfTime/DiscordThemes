@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.8.1
+
+- Minor fixes
+
 ## Version 1.8.0
 
 - Fix emoji picker colors

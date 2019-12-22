@@ -1,4 +1,4 @@
-/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.8.0","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
+/*//META{"name":"NewNihilism","description":"A dark and compact theme, designed for use with Discord's dark theme.","author":"Observer of Time","version":"1.8.1","website":"https://observeroftime.github.io/DiscordThemes/NewNihilism","source":"https://github.com/ObserverOfTime/DiscordThemes/tree/master/NewNihilism"}*//***/
 
 /** ---- Server Area ---- **/
 .wrapper-1Rf91z {
@@ -187,6 +187,9 @@
 .mention:hover {
   color: #DDD;
 }
+.attachWrapper-1_D-pj {
+  border: none;
+}
 .attachment-33OFj0 .icon-1kp3fr {
   filter: grayscale(90%);
 }
@@ -250,6 +253,9 @@
 .buttons-205you [tabindex="2"],
 .buttons-205you [tabindex="3"] {
   display: none;
+}
+.emojiButton-3uL3Aw {
+  margin-right: 14px;
 }
 
 /** ---- Member Area ---- **/
@@ -358,6 +364,9 @@ a[href="/channels/@me"] .wrapper-232cHJ {
   margin-left: 0;
   border-radius: 0;
   padding: 10px;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+  border-radius: 20%;
 }
 
 /** ---- Avatars and Statuses ---- **/
@@ -488,6 +497,12 @@ a[href="/channels/@me"] .wrapper-232cHJ {
 }
 foreignObject[mask] {
   mask: unset;
+}
+.autocompleteRow-2OthDa .mask-1l8v16 rect {
+  rx: 4;
+  ry: 4;
+  width: 23px;
+  height: 23px;
 }
 
 
@@ -625,18 +640,16 @@ foreignObject[mask] {
 }
 
 /** ---- Upload Modal ---- **/
-.uploadModal-2ifh8j,
+#app-mount .uploadModal-2ifh8j,
 .uploadModal-2ifh8j .footer-3mqk7D,
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
-  background-color: #222;
-}
 .uploadModal-2ifh8j .inner-3nWsbo,
-.uploadDropModal-2kTwbc.inner-3nWsbo {
-  border-color: gray;
+.uploadModal-2ifh8j .autocomplete-1vrmp,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+  background-color: var(--background-floating);
 }
-.uploadModal-2ifh8j .inner-3nWsbo textarea {
-  background-color: #393B40;
-  border-radius: 5px;
+.uploadModal-2ifh8j .inner-3nWsbo .textArea-2Spzkt,
+.uploadModal-2ifh8j .inner-3nWsbo .buttons-205you {
+  background-color: var(--background-tertiary);
 }
 .uploadModal-2ifh8j .inner-zqa7da {
   background: inherit;
@@ -648,9 +661,6 @@ foreignObject[mask] {
 .uploadModal-2ifh8j .icon-kyxXVr,
 .uploadDropModal-2kTwbc .icon-kyxXVr {
   filter: grayscale(90%);
-}
-.uploadModal-2ifh8j .autocomplete-1vrmpx {
-  background: #222;
 }
 .uploadModal-2ifh8j .autocomplete-1vrmpx .divider-23swzi {
   display: none;
@@ -849,7 +859,11 @@ input[type="checkbox"]:checked + span::after {
 .emojiPicker-3m1S-j {
   border-radius: 4px;
 }
-.emojiPicker-3m1S-j .infoBarWrapper-283ttO {
+.emojiPicker-3m1S-j .scroller-3vODG7,
+.emojiPicker-3m1S-j .scroller-3vODG7.containerWithInfoBar-2acjZU {
+  height: 300px;
+}
+.emojiPicker-3m1S-j .infoBar-U6oBFk {
   display: none;
 }
 .emojiPicker-3m1S-j .categories-1feg4n,
@@ -926,10 +940,14 @@ input[type="checkbox"]:checked + span::after {
 
 /** ---- Tooltips ---- **/
 .layerContainer-yqaFcK .tooltip-2QfLtc {
-  background: #555;
+  background: var(--background-accent);
 }
 .layerContainer-yqaFcK .tooltip-2QfLtc .tooltipPointer-3ZfirK {
-  border-top-color: #555;
+  border-top-color: var(--background-accent);
+}
+.layerContainer-yqaFcK .listItemTooltip-CDcY8J {
+  font-weight: normal;
+  line-height: inherit;
 }
 
 /** ---- Toolbar ---- **/
