@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.9.0
+
+- Fix avatars and statuses
+- Fix server modal
+
 ## Version 1.8.1
 
 - Minor fixes
