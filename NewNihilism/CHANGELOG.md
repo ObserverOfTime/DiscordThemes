@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.10.0
+
+- Fix server list
+- Update classes
+
 ## Version 1.9.0
 
 - Fix avatars and statuses

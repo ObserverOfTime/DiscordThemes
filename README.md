@@ -27,9 +27,9 @@ Make Embeds Great Again.
 
 **BetterDiscord:**
 
-- [Windows](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0/BandagedBD_Windows.exe)
-- [MacOS](https://github.com/rauenzi/BetterDiscordApp/releases/download/0.3.0/BandagedBD_Mac.zip)
-- [Linux](https://github.com/bb010g/betterdiscordctl#betterdiscordctl)
+- [Windows](https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Windows.exe)
+- [MacOS](https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Mac.zip)
+- [Linux](https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Linux.AppImage)
 
 ### Web
 

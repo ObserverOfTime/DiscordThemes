@@ -2,8 +2,8 @@
 
 **A dark and compact theme, designed for use with Discord's dark theme.**
 
-[![Desktop](https://img.shields.io/badge/Desktop-v1.9.0-yellowgreen.svg)](src/NewNihilism.css)
-[![Web](https://img.shields.io/badge/Web-v1.9.0-brightgreen.svg)](src/NewNihilism.web.css)
+[![Desktop](https://img.shields.io/badge/Desktop-v1.9.1-yellowgreen.svg)](src/NewNihilism.css)
+[![Web](https://img.shields.io/badge/Web-v1.9.1-brightgreen.svg)](src/NewNihilism.web.css)
 
 ## Features
 
@@ -33,5 +33,3 @@
 ### Web
 
 [![Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2UlEQVQ4jaXTKw6EMBAG4F6G5E/W7Q3QewzCAVA9ABJRU4lA12KRKBIUAoGrIEGQ4BGzouHRhQ1lt8kv5+v0MYwxxiAledN4K5CS2LK8aST28ok9H255+eRN43cAnBPqmjDPW/re7HoFgHO7cB8noCisAkSRSZoSwtABaJoV+OkOoNTWwTAQsmzb+QxYixcgCAhtezy/UhawIp/A+hJpStD6HNkDV/8ASWIhTv/ggJSlOwClCFVljiCE3YHW957xkDh2AIQwLXeducS2JeQ5IYrcZ+H2MP0zzm+ViP6pHjn4BgAAAABJRU5ErkJggg==)](https://observeroftime.github.io/DiscordThemes/NewNihilism/dist/NewNihilism.user.css)
-
-[![OpenUserCSS](https://img.shields.io/badge/Install%20from-openusercss.org-238b8b.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvUlEQVQ4jbWTPQqEMBCF7b2Cd7AOguRWdukEq9xFsFwPswfYcutvmxcY1ySIyz4YCO/NvMzkp2n+AWAEIrApIjBeKeyAnTJ2oKsVP5W4Ah5oFV4cyjmbmJ2nSodT6iQ3M8B6YczUyWjJKNIDDugzhb00r9xoxU1kCyzAC3BGd+IW5QBsNQOAYPQgrmhgRxi0fqswaI207AiHQwRmzpiLhyjhcI3abVEM1WuU+NtDMiaPTPsJ5af8ZXTvM93BB/H88HWpW5EvAAAAAElFTkSuQmCC)](https://openusercss.org/theme/5d592aba4526830c00527af7)
