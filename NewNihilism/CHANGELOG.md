@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.10.1
+
+- Fix user popout
+
 ## Version 1.10.0
 
 - Fix server list

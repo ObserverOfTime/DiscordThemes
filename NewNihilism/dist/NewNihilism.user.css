@@ -1,6 +1,6 @@
 /*  ==UserStyle==
  *  @name        New Nihilism
- *  @version     1.10.0
+ *  @version     1.10.1
  *  @author      ObserverOfTime <chronobserver@disroot.org>
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
@@ -45,6 +45,9 @@
   }
   .wrapper-21YSNc > ul {
     height: unset !important;
+  }
+  .wrapperSimple-19ogV2 {
+    border-radius: unset;
   }
   .expandedFolderBackground-1cujaW {
     border-radius: 10px;
@@ -268,10 +271,6 @@
     transform: rotateZ(90deg);
     margin-right: 4px;
   }
-  .form-2fGMdU .buttons-3JBrkn > .buttonContainer-28fw2U:first-of-type,
-  .form-2fGMdU .buttons-3JBrkn > .button-38aScr {
-    display: none;
-  }
   .groupStart-23k01U:not(.message-2qnXI6):not(.backgroundFlash-24qWLN) {
     display: none;
   }
@@ -360,11 +359,15 @@
   .actionButton-uPB8Fs.highlight-Lf97TE {
     background-color: transparent;
   }
+  #private-channels-0 {
+    display: none;
+  }
 
   /** ---- Avatars and Statuses ---- **/
   #app-mount .displayAvatar-1wWlVM,
   .avatarHint-1qgaV3,
   .embedAuthorIcon--1zR3L,
+  .avatarWrapper-1-5NA0,
   .avatar-3elDyV,
   .avatar-3W3CeO,
   .avatar-1BDn8e,
@@ -374,6 +377,7 @@
   .icon-3o6xvg,
   .icon-27yU2q,
   .acronym-2mOFsV,
+  .wrapper-3t9DeA,
   .childWrapper-anI2G9,
   .avatar-VxgULZ::before {
     border-radius: 20%;
@@ -425,13 +429,24 @@
     height: 38px;
     stroke-width: 2;
   }
-  .header-2BwW8b svg:not(.gameIcon-_0rmMm) rect,
-  .header-QKLPzZ svg:not(.gameIcon-_0rmMm) rect {
+  .userPopout-3XzG_A rect,
+  .header-QKLPzZ rect {
     rx: 16;
     ry: 16;
     height: 78px;
     width: 78px;
     stroke-width: 3;
+  }
+  .userPopout-3XzG_A .avatarHint-1E3LMl {
+    top: 1px;
+    left: 1px;
+    height: 78px;
+    width: 78px;
+    border-radius: 20%;
+  }
+  .avatar-22FtUu {
+    border: none;
+    background: unset;
   }
   .status-mz5rqq,
   .avatar-SmRMf2 rect {
@@ -1006,9 +1021,10 @@
 
   /** ---- Web Stuff ---- **/
 
-  /** ---- Hide Apps Button ---- **/
+  /** ---- Hide unnecessary buttons ---- **/
+  .form-2fGMdU .buttons-3JBrkn > .buttonContainer-28fw2U:first-of-type,
+  .form-2fGMdU .buttons-3JBrkn > .button-38aScr,
   .listItem-2P_4kh:last-child {
     display: none;
   }
-
 }
