@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.11.0
+
+- Fix status borders
+- Hide snowsgiving
+- Update classes
+
 ## Version 1.10.1
 
 - Fix user popout

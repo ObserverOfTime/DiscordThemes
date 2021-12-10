@@ -1,6 +1,6 @@
 /*  ==UserStyle==
  *  @name        New Nihilism
- *  @version     1.10.1
+ *  @version     1.11.0
  *  @author      ObserverOfTime <chronobserver@disroot.org>
  *  @namespace   https://github.com/ObserverOfTime/DiscordThemes
  *  @homepageURL https://observeroftime.github.io/DiscordThemes
@@ -20,7 +20,7 @@
   .guildSeparator-3s64Iy {
     display: none;
   }
-  .circleIconButton-1QV--U {
+  .circleIconButton-hZmpE8 {
     opacity: 0.5;
     font-size: 37px;
     padding: 0 0 8px 1px;
@@ -28,7 +28,7 @@
     height: 100%;
     border-radius: 20%;
   }
-  .circleIconButton-1QV--U > svg {
+  .circleIconButton-hZmpE8 > svg {
     margin-top: 0.25em;
   }
   .guildsError-b7zR5H {
@@ -49,11 +49,14 @@
   .wrapperSimple-19ogV2 {
     border-radius: unset;
   }
-  .expandedFolderBackground-1cujaW {
+  .folder-2w6LX1 {
+    background: none;
+  }
+  .expandedFolderBackground-3ZDF05 {
     border-radius: 10px;
     height: 105%;
   }
-  .wrapper-3Njo_c > ul {
+  .wrapper-shyHJt > ul {
     height: 100% !important;
     margin-bottom: 20px;
   }
@@ -103,7 +106,10 @@
   .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: darkslategray;
   }
-  .folder-21wGz3.hover-2ji_A7 {
+  .folder-2w6LX1:hover {
+    border-radius: 20%;
+  }
+  .tutorialContainer-11ICd5 .childWrapper-anI2G9 > svg {
     border-radius: 20%;
   }
 
@@ -359,7 +365,8 @@
   .actionButton-uPB8Fs.highlight-Lf97TE {
     background-color: transparent;
   }
-  #private-channels-0 {
+  [data-list-item-id$="snowsgiving"],
+  #private-channels-1 {
     display: none;
   }
 
@@ -390,13 +397,13 @@
     stroke-linejoin: round;
     stroke-linecap: round;
   }
-  [aria-label*="Online"] rect {
+  [aria-label$="Online"] rect {
     stroke: #43B581;
   }
-  [aria-label*="Idle"] rect {
+  [aria-label$="Idle"] rect {
     stroke: #FAA61A;
   }
-  [aria-label*="Do Not Disturb"] rect {
+  [aria-label$="Do not disturb"] rect {
     stroke: #F04747;
   }
   [aria-label$="Invisible"] rect,
@@ -429,22 +436,29 @@
     height: 38px;
     stroke-width: 2;
   }
-  .userPopout-3XzG_A rect,
-  .header-QKLPzZ rect {
+  .avatar-AvHqJA rect {
     rx: 16;
     ry: 16;
-    height: 78px;
-    width: 78px;
-    stroke-width: 3;
+    height: 118px;
+    width: 118px;
+    stroke-width: 4;
   }
-  .userPopout-3XzG_A .avatarHint-1E3LMl {
+
+  .userPopout-xaxa6l .avatarHint-2A3RNb {
     top: 1px;
     left: 1px;
     height: 78px;
     width: 78px;
     border-radius: 20%;
   }
-  .avatar-22FtUu {
+  .avatar-37jOim rect {
+    rx: 16;
+    ry: 16;
+    height: 78px;
+    width: 78px;
+    stroke-width: 3;
+  }
+  .avatar-37jOim {
     border: none;
     background: unset;
   }
@@ -458,7 +472,7 @@
   .status-mz5rqq[aria-label="Idle"] + .statusText-2F9zIF {
     color: #FAA61A;
   }
-  .status-mz5rqq[aria-label="Do Not Disturb"] + .statusText-2F9zIF {
+  .status-mz5rqq[aria-label="Do not disturb"] + .statusText-2F9zIF {
     color: #F04747;
   }
   .status-mz5rqq[aria-label="Streaming"] + .statusText-2F9zIF {
@@ -529,18 +543,11 @@
 
 
   /** ---- User Modals ---- **/
-  .userPopout-3XzG_A .bodyInner-245q0L,
-  .userPopout-3XzG_A .footer-1fjuF6,
-  .modal-1UGdnR .body-3ND3kc,
-  .topSectionPlaying-1J5E4n,
-  .topSectionStreaming-1Tpf5X,
-  .topSectionSpotify-1lI0-P,
-  .headerPlaying-j0WQBV,
-  .headerStreaming-2FjmGz,
-  .headerSpotify-zpWxgT,
-  .headerXbox-3G-4PF,
+  .headerTop-2y3V6H,
+  .activity-fViXj7,
+  .body-3iLsc4,
   .body-3ND3kc,
-  #autocomplete-popout .autocomplete-scroller {
+  .footer-1fjuF6 {
     background: #202225 !important;
   }
   .userPopout-3XzG_A .quickMessage-2XpSaN {
@@ -574,6 +581,9 @@
   .role-2irmRk,
   .roleCircle-3xAZ1j {
     border-radius: 4px;
+  }
+  .activity-fViXj7 {
+    padding-bottom: 8px;
   }
   .connectedAccounts-repVzS {
     margin-bottom: 5px;
@@ -842,6 +852,12 @@
   }
   .item-PXvHYJ[style*="rgb(114, 137, 218)"].notSelected-1N1G5p:hover {
     background: hsla(51, 100%, 50%, 0.1) !important;
+  }
+  .premiumTabItem-1QTfBr {
+    margin: 0 auto 2px;
+  }
+  .premiumTabItem-1QTfBr .icon-Zc-uZZ {
+    display: none;
   }
 
   /** ---- Emoji Picker ---- **/

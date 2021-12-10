@@ -27,9 +27,9 @@ Make Embeds Great Again.
 
 **BetterDiscord:**
 
-- [Windows](https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Windows.exe)
-- [MacOS](https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Mac.zip)
-- [Linux](https://github.com/BetterDiscord/Installer/releases/download/v1.0.0-beta/BetterDiscord-Linux.AppImage)
+- [Windows](https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Windows.exe)
+- [MacOS](https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Mac.zip)
+- [Linux](https://github.com/BetterDiscord/Installer/releases/latest/download/BetterDiscord-Linux.AppImage)
 
 ### Web
 
